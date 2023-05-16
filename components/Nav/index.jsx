@@ -14,10 +14,12 @@ export default function Nav() {
     {
       name: 'Home',
       route: '/',
+      icon: home,
     },
     {
       name: 'Friends',
       route: '/friends',
+      icon: friends,
     },
   ];
 
@@ -32,10 +34,10 @@ export default function Nav() {
         {menuItems.map((item) => (
           <li
             key={item.name}
-            className={pathname === item.route && styles.activeLink}
+            className={pathname === item.route ? styles.activeLink : undefined}
           >
             <Link href={item.route} className={styles.navListItem}>
-              <Image src={home} width={24} height={24} alt={item} />
+              <Image src={item.icon} width={24} height={24} alt={item} />
               <span className={styles.listSpan}>{item.name}</span>
             </Link>
           </li>
