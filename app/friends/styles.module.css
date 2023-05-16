@@ -1,3 +1,39 @@
-.heading {
-  color: var(--primary);
+.container {
+  width: 100%;
+  max-width: 90rem;
+  position: relative;
+  padding: 4.6rem 2.5rem;
+}
+
+.filterButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid var(--tertiary);
+  border-radius: 3rem;
+  padding: 0.8rem 2rem;
+  transition: all 0.3s;
+}
+
+.filterButton:hover {
+  cursor: pointer;
+  background-color: var(--secondary);
+}
+
+.filterButton:hover > img {
+  filter: invert(1) brightness(100);
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.divider {
+  width: 0.1rem;
+  height: 2.8rem;
+  background-color: var(--border);
 }
