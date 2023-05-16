@@ -1,0 +1,13 @@
+.clearAllButton {
+  border: none;
+  color: var(--border);
+  font-weight: 600;
+  line-height: 1.7rem;
+  background: none;
+  transition: color 0.3s;
+}
+
+.clearAllButton:hover {
+  cursor: pointer;
+  color: var(--secondary);
+}

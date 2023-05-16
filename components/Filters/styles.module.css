@@ -1,6 +1,10 @@
 .filterContainer {
+  top: 10rem;
+  width: 100%;
   max-width: 32rem;
+  position: absolute;
   border-radius: 0.6rem;
+  background-color: #fff;
   box-shadow: var(--filter-shadow);
 }
 

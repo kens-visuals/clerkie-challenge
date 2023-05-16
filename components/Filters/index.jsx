@@ -1,18 +1,22 @@
 import Image from 'next/image';
 
+import ClearAllButton from '../ClearAllButton';
+
 import styles from './styles.module.css';
 
 import closeIcon from '../../public/close-icon.svg';
 
-export default function Filters() {
+export default function Filters({ setIsFilterOpen }) {
   return (
     <div className={styles.filterContainer}>
       <div className={styles.filterButtonsWrapper}>
-        <button type="button" className={styles.clearAllButton}>
-          Clear all
-        </button>
+        <ClearAllButton />
         <span className={styles.filterSpanHeading}>Filter</span>
-        <button type="button" className={styles.closeButton}>
+        <button
+          type="button"
+          onClick={() => setIsFilterOpen(false)}
+          className={styles.closeButton}
+        >
           <Image src={closeIcon} width={17} height={17} alt="close" />
         </button>
       </div>
