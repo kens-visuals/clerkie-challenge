@@ -26,4 +26,11 @@
 .navListItem {
   display: flex;
   align-items: center;
+  gap: 0.7rem;
+}
+
+.activeLink {
+  padding: 1rem 1.6rem;
+  border-radius: 0.6rem;
+  background-color: var(--secondary);
 }
