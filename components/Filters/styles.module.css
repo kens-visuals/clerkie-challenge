@@ -1,0 +1,121 @@
+.filterContainer {
+  max-width: 32rem;
+  border-radius: 0.6rem;
+  box-shadow: var(--filter-shadow);
+}
+
+.filterButtonsWrapper {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--filter-border);
+}
+
+.filterSpanHeading {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1.9rem;
+  margin-left: -2.5rem;
+}
+
+.closeButton {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.optionsContainer {
+  padding: 1rem;
+}
+
+.checkboxesContainer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.friendStatusSpan {
+  color: var(--tertiary-light);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  padding-top: 0.5rem;
+}
+
+.checkboxLabel {
+  color: var(--secondary);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.applyButton {
+  width: 100%;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  line-height: 1.9rem;
+  border-radius: 0.6rem;
+  padding-block: 1.3rem;
+  background: var(--secondary);
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.applyButton:hover {
+  cursor: pointer;
+  background: none;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.checkbox[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  width: 1.6rem;
+  height: 1.6rem;
+  cursor: pointer;
+  border-radius: 1px;
+  border: 1.5px solid var(--tertiary);
+}
+
+.checkbox[type='checkbox']:checked {
+  border-color: var(--dark-blue);
+  background-color: var(--dark-blue);
+}
+
+.checkbox[type='checkbox']:focus {
+  outline: 1px dashed var(--dark-blue);
+}
+
+.checkbox[type='checkbox']::after {
+  content: '\2713';
+  display: block;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
