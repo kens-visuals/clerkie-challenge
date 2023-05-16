@@ -1,0 +1,29 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem;
+  background-color: var(--primary);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logoSpan {
+  display: none;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.navListItem {
+  display: flex;
+  align-items: center;
+}
