@@ -1,0 +1,602 @@
+[
+  {
+    "name": "John Smith",
+    "phoneNumber": "(123) 456-7890",
+    "email": "john.smith@gmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Jane Miller",
+    "phoneNumber": "(234) 567-8901",
+    "email": "jane.miller@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Michael Johnson",
+    "phoneNumber": "(345) 678-9012",
+    "email": "michael.johnson@hotmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Emma Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "emma.brown@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "David Wilson",
+    "phoneNumber": "(567) 890-1234",
+    "email": "david.wilson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Sarah Moore",
+    "phoneNumber": "(678) 901-2345",
+    "email": "sarah.moore@hotmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Christopher Taylor",
+    "phoneNumber": "(789) 012-3456",
+    "email": "christopher.taylor@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Olivia Smith",
+    "phoneNumber": "(890) 123-4567",
+    "email": "olivia.smith@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "James Johnson",
+    "phoneNumber": "(901) 234-5678",
+    "email": "james.johnson@gmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Emily Davis",
+    "phoneNumber": "(012) 345-6789",
+    "email": "emily.davis@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Daniel Anderson",
+    "phoneNumber": "(123) 456-7890",
+    "email": "daniel.anderson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Sophia Wilson",
+    "phoneNumber": "(234) 567-8901",
+    "email": "sophia.wilson@yahoo.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Michael Johnson",
+    "phoneNumber": "(345) 678-9012",
+    "email": "michael.johnson@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Olivia Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "olivia.brown@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "David Wilson",
+    "phoneNumber": "(567) 890-1234",
+    "email": "david.wilson@yahoo.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Emily Moore",
+    "phoneNumber": "(678) 901-2345",
+    "email": "emily.moore@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "James Taylor",
+    "phoneNumber": "(789) 012-3456",
+    "email": "james.taylor@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Olivia Smith",
+    "phoneNumber": "(890) 123-4567",
+    "email": "olivia.smith@yahoo.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Daniel Johnson",
+    "phoneNumber": "(901) 234-5678",
+    "email": "daniel.johnson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Sophia Davis",
+    "phoneNumber": "(012) 345-6789",
+    "email": "sophia.davis@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Aiden Anderson",
+    "phoneNumber": "(123) 456-7890",
+    "email": "aiden.anderson@gmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Abigail Wilson",
+    "phoneNumber": "(234) 567-8901",
+    "email": "abigail.wilson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Ethan Johnson",
+    "phoneNumber": "(345) 678-9012",
+    "email": "ethan.johnson@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Amelia Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "amelia.brown@gmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Mia Davis",
+    "phoneNumber": "(567) 890-1234",
+    "email": "mia.davis@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Noah Smith",
+    "phoneNumber": "(678) 901-2345",
+    "email": "noah.smith@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Elizabeth Johnson",
+    "phoneNumber": "(789) 012-3456",
+    "email": "elizabeth.johnson@hotmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Sofia Wilson",
+    "phoneNumber": "(890) 123-4567",
+    "email": "sofia.wilson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Benjamin Moore",
+    "phoneNumber": "(901) 234-5678",
+    "email": "benjamin.moore@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Elijah Taylor",
+    "phoneNumber": "(012) 345-6789",
+    "email": "elijah.taylor@hotmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Camila Anderson",
+    "phoneNumber": "(123) 456-7890",
+    "email": "camila.anderson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Madison Smith",
+    "phoneNumber": "(234) 567-8901",
+    "email": "madison.smith@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Carter Johnson",
+    "phoneNumber": "(345) 678-9012",
+    "email": "carter.johnson@hotmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Luna Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "luna.brown@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Henry Davis",
+    "phoneNumber": "(567) 890-1234",
+    "email": "henry.davis@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Sebastian Wilson",
+    "phoneNumber": "(678) 901-2345",
+    "email": "sebastian.wilson@gmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Scarlett Johnson",
+    "phoneNumber": "(789) 012-3456",
+    "email": "scarlett.johnson@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Grayson Smith",
+    "phoneNumber": "(890) 123-4567",
+    "email": "grayson.smith@gmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Zoey Anderson",
+    "phoneNumber": "(901) 234-5678",
+    "email": "zoey.anderson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Mila Davis",
+    "phoneNumber": "(012) 345-6789",
+    "email": "mila.davis@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Jackson Johnson",
+    "phoneNumber": "(123) 456-7890",
+    "email": "jackson.johnson@gmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Avery Wilson",
+    "phoneNumber": "(234) 567-8901",
+    "email": "avery.wilson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Evelyn Moore",
+    "phoneNumber": "(345) 678-9012",
+    "email": "evelyn.moore@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Levi Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "levi.brown@gmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Chloe Davis",
+    "phoneNumber": "(567) 890-1234",
+    "email": "chloe.davis@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Mateo Smith",
+    "phoneNumber": "(678) 901-2345",
+    "email": "mateo.smith@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Riley Johnson",
+    "phoneNumber": "(789) 012-3456",
+    "email": "riley.johnson@hotmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Aria Wilson",
+    "phoneNumber": "(890) 123-4567",
+    "email": "aria.wilson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Liam Moore",
+    "phoneNumber": "(901) 234-5678",
+    "email": "liam.moore@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Layla Taylor",
+    "phoneNumber": "(012) 345-6789",
+    "email": "layla.taylor@hotmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Wyatt Anderson",
+    "phoneNumber": "(123) 456-7890",
+    "email": "wyatt.anderson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Harper Smith",
+    "phoneNumber": "(234) 567-8901",
+    "email": "harper.smith@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Logan Johnson",
+    "phoneNumber": "(345) 678-9012",
+    "email": "logan.johnson@hotmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Grace Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "grace.brown@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Elijah Davis",
+    "phoneNumber": "(567) 890-1234",
+    "email": "elijah.davis@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Savannah Wilson",
+    "phoneNumber": "(678) 901-2345",
+    "email": "savannah.wilson@gmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Nathan Johnson",
+    "phoneNumber": "(789) 012-3456",
+    "email": "nathan.johnson@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Addison Smith",
+    "phoneNumber": "(890) 123-4567",
+    "email": "addison.smith@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Elizabeth Anderson",
+    "phoneNumber": "(901) 234-5678",
+    "email": "elizabeth.anderson@yahoo.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Eli Moore",
+    "phoneNumber": "(012) 345-6789",
+    "email": "eli.moore@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Aubrey Davis",
+    "phoneNumber": "(123) 456-7890",
+    "email": "aubrey.davis@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Victoria Wilson",
+    "phoneNumber": "(234) 567-8901",
+    "email": "victoria.wilson@yahoo.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Jack Smith",
+    "phoneNumber": "(345) 678-9012",
+    "email": "jack.smith@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Avery Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "avery.brown@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Sophia Davis",
+    "phoneNumber": "(567) 890-1234",
+    "email": "sophia.davis@yahoo.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Daniel Johnson",
+    "phoneNumber": "(678) 901-2345",
+    "email": "daniel.johnson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Emily Smith",
+    "phoneNumber": "(789) 012-3456",
+    "email": "emily.smith@yahoo.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Michael Anderson",
+    "phoneNumber": "(890) 123-4567",
+    "email": "michael.anderson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Olivia Moore",
+    "phoneNumber": "(901) 234-5678",
+    "email": "olivia.moore@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "William Brown",
+    "phoneNumber": "(012) 345-6789",
+    "email": "william.brown@hotmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Charlotte Davis",
+    "phoneNumber": "(123) 456-7890",
+    "email": "charlotte.davis@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Sofia Johnson",
+    "phoneNumber": "(234) 567-8901",
+    "email": "sofia.johnson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Joseph Smith",
+    "phoneNumber": "(345) 678-9012",
+    "email": "joseph.smith@hotmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Avery Wilson",
+    "phoneNumber": "(456) 789-0123",
+    "email": "avery.wilson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Harper Anderson",
+    "phoneNumber": "(567) 890-1234",
+    "email": "harper.anderson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Benjamin Davis",
+    "phoneNumber": "(678) 901-2345",
+    "email": "benjamin.davis@gmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Mia Johnson",
+    "phoneNumber": "(789) 012-3456",
+    "email": "mia.johnson@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Alexander Smith",
+    "phoneNumber": "(890) 123-4567",
+    "email": "alexander.smith@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Scarlett Moore",
+    "phoneNumber": "(901) 234-5678",
+    "email": "scarlett.moore@yahoo.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "James Brown",
+    "phoneNumber": "(012) 345-6789",
+    "email": "james.brown@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Madison Davis",
+    "phoneNumber": "(123) 456-7890",
+    "email": "madison.davis@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "David Wilson",
+    "phoneNumber": "(567) 890-1234",
+    "email": "david.wilson@yahoo.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Emily Moore",
+    "phoneNumber": "(678) 901-2345",
+    "email": "emily.moore@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "James Taylor",
+    "phoneNumber": "(789) 012-3456",
+    "email": "james.taylor@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Olivia Smith",
+    "phoneNumber": "(890) 123-4567",
+    "email": "olivia.smith@yahoo.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Daniel Johnson",
+    "phoneNumber": "(901) 234-5678",
+    "email": "daniel.johnson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Sophia Davis",
+    "phoneNumber": "(012) 345-6789",
+    "email": "sophia.davis@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Aiden Anderson",
+    "phoneNumber": "(123) 456-7890",
+    "email": "aiden.anderson@gmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Abigail Wilson",
+    "phoneNumber": "(234) 567-8901",
+    "email": "abigail.wilson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Ethan Johnson",
+    "phoneNumber": "(345) 678-9012",
+    "email": "ethan.johnson@hotmail.com",
+    "status": ""
+  },
+  {
+    "name": "Amelia Brown",
+    "phoneNumber": "(456) 789-0123",
+    "email": "amelia.brown@gmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Mia Davis",
+    "phoneNumber": "(567) 890-1234",
+    "email": "mia.davis@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Noah Smith",
+    "phoneNumber": "(678) 901-2345",
+    "email": "noah.smith@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Elizabeth Johnson",
+    "phoneNumber": "(789) 012-3456",
+    "email": "elizabeth.johnson@hotmail.com",
+    "status": "Super Close Friends"
+  },
+  {
+    "name": "Sofia Wilson",
+    "phoneNumber": "(890) 123-4567",
+    "email": "sofia.wilson@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Benjamin Moore",
+    "phoneNumber": "(901) 234-5678",
+    "email": "benjamin.moore@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Elijah Taylor",
+    "phoneNumber": "(012) 345-6789",
+    "email": "elijah.taylor@hotmail.com",
+    "status": "Close Friends"
+  },
+  {
+    "name": "Camila Anderson",
+    "phoneNumber": "(123) 456-7890",
+    "email": "camila.anderson@gmail.com",
+    "status": ""
+  },
+  {
+    "name": "Madison Smith",
+    "phoneNumber": "(234) 567-8901",
+    "email": "madison.smith@yahoo.com",
+    "status": ""
+  },
+  {
+    "name": "Carter Johnson",
+    "phoneNumber": "(345) 678-9012",
+    "email": "carter.johnson@hotmail.com",
+    "status": "Super Close Friends"
+  }
+]
