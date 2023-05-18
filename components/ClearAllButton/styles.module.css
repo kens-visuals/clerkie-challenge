@@ -1,10 +1,17 @@
 .clearAllButton {
   border: none;
-  color: var(--border);
   font-weight: 600;
   line-height: 1.7rem;
   background: none;
   transition: color 0.3s;
+}
+
+.clearAllButtonInactive {
+  color: var(--border);
+}
+
+.clearAllButtonActive {
+  color: var(--dark-blue);
 }
 
 .clearAllButton:hover {

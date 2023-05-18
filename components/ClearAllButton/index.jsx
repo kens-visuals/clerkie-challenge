@@ -1,8 +1,16 @@
 import styles from './styles.module.css';
 
-export default function ClearAllButton() {
+export default function ClearAllButton({ selectedOptions, handleFilterReset }) {
   return (
-    <button type="button" className={styles.clearAllButton}>
+    <button
+      type="button"
+      onClick={handleFilterReset}
+      className={`${styles.clearAllButton} ${
+        selectedOptions?.length
+          ? styles.clearAllButtonActive
+          : styles.clearAllButtonInactive
+      }`}
+    >
       Clear all
     </button>
   );
