@@ -1,0 +1,72 @@
+.cardContainer {
+  padding: 3.2rem 3rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+}
+
+.spanWrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.status {
+  border-radius: 2.1rem;
+  padding: 0.3rem 0.7rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.closeFriends {
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+}
+
+.superCloseFriends {
+  color: var(--dark-green);
+  background-color: var(--light-green);
+}
+
+.phoneAndEmail {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--tertiary);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.loading {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 2.7rem;
+  background: var(--loading);
+}
+
+.loadingBar {
+  width: 20.5rem; /* NOTE: change later to 29.5rem  */
+  height: 1.8rem;
+}
+
+.loadingBarLong {
+  width: 25rem; /* NOTE: change later to 34rem  */
+  height: 1.4rem;
+}
+
+.loadingBarShort {
+  width: 11.8rem;
+  height: 1.7rem;
+}
+
+.loadingBarShortest {
+  width: 8.4rem;
+  height: 1.2rem;
+}
