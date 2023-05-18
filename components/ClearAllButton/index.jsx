@@ -5,6 +5,7 @@ export default function ClearAllButton({ selectedOptions, handleFilterReset }) {
     <button
       type="button"
       onClick={handleFilterReset}
+      disabled={!selectedOptions.length}
       className={`${styles.clearAllButton} ${
         selectedOptions?.length
           ? styles.clearAllButtonActive

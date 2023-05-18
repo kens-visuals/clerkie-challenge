@@ -34,12 +34,16 @@ export default function FreindsCard({
       </div>
       <div>
         {isLoading ? (
-          <div className={`${styles.loading} ${styles.loadingBarShort}`} />
+          <div
+            className={`${styles.loading} ${styles.loadingBarReversed} ${styles.loadingBarShort}`}
+          />
         ) : (
           <span className={styles.phoneAndEmail}>{email} • </span>
         )}
         {isLoading ? (
-          <div className={`${styles.loading} ${styles.loadingBarShortest}`} />
+          <div
+            className={`${styles.loading} ${styles.loadingBarReversed} ${styles.loadingBarShortest}`}
+          />
         ) : (
           <span className={styles.phoneAndEmail}>{phoneNumber}</span>
         )}

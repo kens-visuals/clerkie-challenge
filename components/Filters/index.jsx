@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Image from 'next/image';
 
 import ClearAllButton from '../ClearAllButton';
@@ -6,11 +7,35 @@ import styles from './styles.module.css';
 
 import closeIcon from '../../public/close-icon.svg';
 
-export default function Filters({ setIsFilterOpen }) {
+export default function Filters({
+  selectedOptions,
+  setIsFilterOpen,
+  handleFilterReset,
+  setSelectedOptions,
+}) {
+  const [tempSelectedOptions, setTempSelectedOptions] =
+    useState(selectedOptions);
+
+  const handleCheckboxToggle = (option) =>
+    setTempSelectedOptions((prevOptions) =>
+      prevOptions.includes(option)
+        ? prevOptions.filter((selectedOption) => selectedOption !== option)
+        : [...prevOptions, option]
+    );
+
+  const handleApplyFilters = () => {
+    setSelectedOptions(tempSelectedOptions);
+    setIsFilterOpen(false);
+  };
+
   return (
     <div className={styles.filterContainer}>
       <div className={styles.filterButtonsWrapper}>
-        <ClearAllButton />
+        <ClearAllButton
+          selectedOptions={selectedOptions}
+          handleFilterReset={handleFilterReset}
+        />
+
         <span className={styles.filterSpanHeading}>Filter</span>
         <button
           type="button"
@@ -25,32 +50,27 @@ export default function Filters({ setIsFilterOpen }) {
         <div className={styles.checkboxesContainer}>
           <span className={styles.friendStatusSpan}>Friend Status</span>
 
-          <div className={styles.checkboxWrapper}>
-            <label className={styles.checkboxLabel} htmlFor="close-friends">
-              Close Friends
-            </label>
-            <input
-              id="close-friends"
-              type="checkbox"
-              className={styles.checkbox}
-            />
-          </div>
-          <div className={styles.checkboxWrapper}>
-            <label
-              className={styles.checkboxLabel}
-              htmlFor="super-close-friends"
-            >
-              Super Close Friends
-            </label>
-            <input
-              id="super-close-friends"
-              type="checkbox"
-              className={styles.checkbox}
-            />
-          </div>
+          {['Close Friends', 'Super Close Friends'].map((option) => (
+            <div key={option} className={styles.checkboxWrapper}>
+              <label className={styles.checkboxLabel} htmlFor={option}>
+                {option}
+              </label>
+              <input
+                id={option}
+                type="checkbox"
+                className={styles.checkbox}
+                value={selectedOptions[option]}
+                checked={tempSelectedOptions?.includes(option)}
+                onChange={() => handleCheckboxToggle(option)}
+              />
+            </div>
+          ))}
         </div>
-
-        <button type="button" className={styles.applyButton}>
+        <button
+          type="button"
+          className={styles.applyButton}
+          onClick={handleApplyFilters}
+        >
           Apply
         </button>
       </div>

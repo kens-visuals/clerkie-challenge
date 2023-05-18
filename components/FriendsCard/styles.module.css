@@ -49,6 +49,7 @@
   margin-top: 1rem;
   border-radius: 2.7rem;
   background: var(--loading);
+  animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .loadingBar {
@@ -61,6 +62,10 @@
   height: 1.4rem;
 }
 
+.loadingBarReversed {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
 .loadingBarShort {
   width: 11.8rem;
   height: 1.7rem;
@@ -69,4 +74,14 @@
 .loadingBarShortest {
   width: 8.4rem;
   height: 1.2rem;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }

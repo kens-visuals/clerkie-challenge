@@ -18,3 +18,8 @@
   cursor: pointer;
   color: var(--secondary);
 }
+
+.clearAllButton:disabled {
+  cursor: not-allowed;
+  color: var(--border);
+}
