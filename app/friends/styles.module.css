@@ -8,15 +8,24 @@
 .filterButton {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #fff;
+  gap: 1rem;
   border: 1px solid var(--tertiary);
   border-radius: 3rem;
   padding: 0.8rem 2rem;
   transition: all 0.3s;
 }
 
+.filterButtonDefault {
+  background-color: #fff;
+}
+
+.filterButtonActive {
+  color: #fff;
+  background-color: var(--secondary);
+}
+
 .filterButton:hover {
+  color: #fff;
   cursor: pointer;
   background-color: var(--secondary);
 }
@@ -25,7 +34,17 @@
   filter: invert(1) brightness(100);
 }
 
-.buttonContainer {
+.filterButtonActive > img {
+  filter: invert(1) brightness(100);
+}
+
+.filterCount {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.filterButtonContainer {
   width: 100%;
   display: flex;
   align-items: center;
