@@ -31,7 +31,7 @@ export default function Frineds() {
           }
         >
           <Image src={filterIcon} width={20} height={20} alt="filter" />
-          {selectedOptions && (
+          {selectedOptions.length > 0 && (
             <span className={styles.filterCount}>{selectedOptions.length}</span>
           )}
         </button>
