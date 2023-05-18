@@ -1,602 +1,1104 @@
 [
   {
+    "id": 1,
+    "slug": "john-smith",
     "name": "John Smith",
     "phoneNumber": "(123) 456-7890",
     "email": "john.smith@gmail.com",
-    "status": "Close Friends"
+    "status": "Close Friends",
+    "about": "I'm John Smith, a friendly and outgoing person. I enjoy spending time with my friends and exploring new places.",
+    "dateAdded": "2012-06-20",
+    "image": "https://robohash.org/abcde"
   },
   {
+    "id": 2,
+    "slug": "jane-miller",
     "name": "Jane Miller",
     "phoneNumber": "(234) 567-8901",
     "email": "jane.miller@yahoo.com",
-    "status": ""
+    "status": "",
+    "about": "Hi, I'm Jane Miller. I love reading books, playing the guitar, and going on adventures.",
+    "dateAdded": "2012-08-05",
+    "image": "https://robohash.org/fghij"
   },
   {
+    "id": 3,
+    "slug": "michael-johnson",
     "name": "Michael Johnson",
     "phoneNumber": "(345) 678-9012",
     "email": "michael.johnson@hotmail.com",
-    "status": "Super Close Friends"
+    "status": "Super Close Friends",
+    "about": "Hey there! I'm Michael Johnson. I'm passionate about photography, traveling, and meeting new people.",
+    "dateAdded": "2012-10-12",
+    "image": "https://robohash.org/klmno"
   },
   {
+    "id": 4,
+    "slug": "emma-brown",
     "name": "Emma Brown",
     "phoneNumber": "(456) 789-0123",
     "email": "emma.brown@gmail.com",
-    "status": ""
+    "status": "",
+    "about": "Hi, I'm Emma Brown. I enjoy painting, cooking, and spending time with my loved ones.",
+    "dateAdded": "2012-12-01",
+    "image": "https://robohash.org/pqrst"
   },
   {
+    "id": 5,
+    "slug": "david-wilson",
     "name": "David Wilson",
     "phoneNumber": "(567) 890-1234",
     "email": "david.wilson@yahoo.com",
-    "status": ""
+    "status": "",
+    "about": "I'm David Wilson, a nature enthusiast and avid hiker. I love exploring the great outdoors and capturing its beauty through photography.",
+    "dateAdded": "2013-02-18",
+    "image": "https://robohash.org/uvwxyz"
   },
   {
+    "id": 6,
+    "slug": "sarah-moore",
     "name": "Sarah Moore",
     "phoneNumber": "(678) 901-2345",
     "email": "sarah.moore@hotmail.com",
-    "status": "Close Friends"
+    "status": "Close Friends",
+    "about": "Hey, I'm Sarah Moore. I enjoy dancing, reading, and spending quality time with my friends and family.",
+    "dateAdded": "2013-04-27",
+    "image": "https://robohash.org/12345"
   },
   {
+    "id": 7,
+    "slug": "christopher-taylor",
     "name": "Christopher Taylor",
     "phoneNumber": "(789) 012-3456",
     "email": "christopher.taylor@gmail.com",
-    "status": ""
+    "status": "",
+    "about": "Hello, I'm Christopher Taylor. I'm passionate about music, playing the piano, and composing my own songs.",
+    "dateAdded": "2013-06-14",
+    "image": "https://robohash.org/67890"
   },
   {
+    "id": 8,
+    "slug": "olivia-smith",
     "name": "Olivia Smith",
     "phoneNumber": "(890) 123-4567",
     "email": "olivia.smith@yahoo.com",
-    "status": ""
+    "status": "",
+    "about": "Hi, I'm Olivia Smith. I love animals, and I enjoy volunteering at local animal shelters in my free time.",
+    "dateAdded": "2013-08-31",
+    "image": "https://robohash.org/abcdef"
   },
   {
-    "name": "James Johnson",
+    "id": 9,
+    "slug": "william-jones",
+    "name": "William Jones",
     "phoneNumber": "(901) 234-5678",
-    "email": "james.johnson@gmail.com",
-    "status": "Super Close Friends"
+    "email": "william.jones@hotmail.com",
+    "status": "",
+    "about": "Hey there! I'm William Jones. I'm a sports enthusiast and enjoy playing basketball, soccer, and tennis.",
+    "dateAdded": "2013-10-19",
+    "image": "https://robohash.org/ghijkl"
   },
   {
+    "id": 10,
+    "slug": "emily-davis",
     "name": "Emily Davis",
     "phoneNumber": "(012) 345-6789",
-    "email": "emily.davis@hotmail.com",
-    "status": ""
+    "email": "emily.davis@gmail.com",
+    "status": "Close Friends",
+    "about": "Hello, I'm Emily Davis. I'm passionate about writing, and I love creating stories and poems in my free time.",
+    "dateAdded": "2013-12-08",
+    "image": "https://robohash.org/mnopqr"
   },
   {
-    "name": "Daniel Anderson",
+    "id": 11,
+    "slug": "james-anderson",
+    "name": "James Anderson",
     "phoneNumber": "(123) 456-7890",
-    "email": "daniel.anderson@gmail.com",
-    "status": ""
+    "email": "james.anderson@yahoo.com",
+    "status": "",
+    "about": "I'm James Anderson. I enjoy playing video games, watching movies, and trying out new cooking recipes.",
+    "dateAdded": "2014-02-25",
+    "image": "https://robohash.org/stuvwx"
   },
   {
+    "id": 12,
+    "slug": "sophia-wilson",
     "name": "Sophia Wilson",
     "phoneNumber": "(234) 567-8901",
-    "email": "sophia.wilson@yahoo.com",
-    "status": "Close Friends"
+    "email": "sophia.wilson@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Sophia Wilson. I have a passion for fashion and love creating my own clothing designs.",
+    "dateAdded": "2014-04-14",
+    "image": "https://robohash.org/yz1234"
   },
   {
-    "name": "Michael Johnson",
+    "id": 13,
+    "slug": "ethan-thompson",
+    "name": "Ethan Thompson",
     "phoneNumber": "(345) 678-9012",
-    "email": "michael.johnson@hotmail.com",
-    "status": ""
+    "email": "ethan.thompson@gmail.com",
+    "status": "Best Friends",
+    "about": "Hey, I'm Ethan Thompson. I'm a music lover and enjoy playing the guitar in my spare time.",
+    "dateAdded": "2014-06-03",
+    "image": "https://robohash.org/567890"
   },
   {
-    "name": "Olivia Brown",
+    "id": 14,
+    "slug": "ava-rodriguez",
+    "name": "Ava Rodriguez",
     "phoneNumber": "(456) 789-0123",
-    "email": "olivia.brown@gmail.com",
-    "status": ""
+    "email": "ava.rodriguez@yahoo.com",
+    "status": "",
+    "about": "Hello, I'm Ava Rodriguez. I'm passionate about photography and love capturing beautiful moments.",
+    "dateAdded": "2014-07-23",
+    "image": "https://robohash.org/abc123"
   },
   {
-    "name": "David Wilson",
+    "id": 15,
+    "slug": "noah-thomas",
+    "name": "Noah Thomas",
     "phoneNumber": "(567) 890-1234",
-    "email": "david.wilson@yahoo.com",
-    "status": "Super Close Friends"
+    "email": "noah.thomas@hotmail.com",
+    "status": "",
+    "about": "I'm Noah Thomas. I enjoy exploring nature, hiking, and camping in different scenic locations.",
+    "dateAdded": "2014-09-12",
+    "image": "https://robohash.org/def456"
   },
   {
-    "name": "Emily Moore",
+    "id": 16,
+    "slug": "mia-lee",
+    "name": "Mia Lee",
     "phoneNumber": "(678) 901-2345",
-    "email": "emily.moore@hotmail.com",
-    "status": ""
+    "email": "mia.lee@gmail.com",
+    "status": "Close Friends",
+    "about": "Hi, I'm Mia Lee. I love cooking and experimenting with different cuisines from around the world.",
+    "dateAdded": "2014-11-01",
+    "image": "https://robohash.org/ghi789"
   },
+
   {
-    "name": "James Taylor",
+    "id": 17,
+    "slug": "logan-walker",
+    "name": "Logan Walker",
     "phoneNumber": "(789) 012-3456",
-    "email": "james.taylor@gmail.com",
-    "status": ""
+    "email": "logan.walker@yahoo.com",
+    "status": "",
+    "about": "I'm Logan Walker. I'm an avid reader and enjoy diving into fantasy and science fiction novels.",
+    "dateAdded": "2014-12-22",
+    "image": "https://robohash.org/jkl012"
   },
   {
-    "name": "Olivia Smith",
+    "id": 18,
+    "slug": "olivia-harris",
+    "name": "Olivia Harris",
     "phoneNumber": "(890) 123-4567",
-    "email": "olivia.smith@yahoo.com",
-    "status": "Close Friends"
+    "email": "olivia.harris@gmail.com",
+    "status": "Close Friends",
+    "about": "Hey there, I'm Olivia Harris. I'm a travel enthusiast and love exploring new cultures and cuisines.",
+    "dateAdded": "2015-02-10",
+    "image": "https://robohash.org/mno345"
   },
   {
-    "name": "Daniel Johnson",
+    "id": 19,
+    "slug": "ethan-martinez",
+    "name": "Ethan Martinez",
     "phoneNumber": "(901) 234-5678",
-    "email": "daniel.johnson@gmail.com",
-    "status": ""
+    "email": "ethan.martinez@yahoo.com",
+    "status": "",
+    "about": "Hi, I'm Ethan Martinez. I'm passionate about technology and enjoy tinkering with gadgets.",
+    "dateAdded": "2015-03-04",
+    "image": "https://robohash.org/pqr678"
   },
   {
-    "name": "Sophia Davis",
+    "id": 20,
+    "slug": "ava-wilson",
+    "name": "Ava Wilson",
     "phoneNumber": "(012) 345-6789",
-    "email": "sophia.davis@hotmail.com",
-    "status": ""
+    "email": "ava.wilson@hotmail.com",
+    "status": "",
+    "about": "I'm Ava Wilson. I'm an animal lover and volunteer at a local animal shelter during my free time.",
+    "dateAdded": "2015-04-18",
+    "image": "https://robohash.org/stu901"
   },
   {
-    "name": "Aiden Anderson",
+    "id": 21,
+    "slug": "noah-garcia",
+    "name": "Noah Garcia",
     "phoneNumber": "(123) 456-7890",
-    "email": "aiden.anderson@gmail.com",
-    "status": "Super Close Friends"
+    "email": "noah.garcia@gmail.com",
+    "status": "Best Friends",
+    "about": "Hey, I'm Noah Garcia. I'm a sports enthusiast and enjoy playing basketball and soccer.",
+    "dateAdded": "2015-06-02",
+    "image": "https://robohash.org/vwx234"
   },
   {
-    "name": "Abigail Wilson",
+    "id": 22,
+    "slug": "mia-martinez",
+    "name": "Mia Martinez",
     "phoneNumber": "(234) 567-8901",
-    "email": "abigail.wilson@yahoo.com",
-    "status": ""
+    "email": "mia.martinez@yahoo.com",
+    "status": "",
+    "about": "Hi, I'm Mia Martinez. I'm a bookworm and love getting lost in captivating novels.",
+    "dateAdded": "2015-07-22",
+    "image": "https://robohash.org/yz567"
   },
   {
-    "name": "Ethan Johnson",
+    "id": 23,
+    "slug": "oliver-anderson",
+    "name": "Oliver Anderson",
     "phoneNumber": "(345) 678-9012",
-    "email": "ethan.johnson@hotmail.com",
-    "status": ""
+    "email": "oliver.anderson@gmail.com",
+    "status": "Close Friends",
+    "about": "Hey, I'm Oliver Anderson. I'm a music lover and play the guitar in a local band.",
+    "dateAdded": "2015-09-14",
+    "image": "https://robohash.org/890abc"
   },
   {
-    "name": "Amelia Brown",
+    "id": 24,
+    "slug": "isabella-thompson",
+    "name": "Isabella Thompson",
     "phoneNumber": "(456) 789-0123",
-    "email": "amelia.brown@gmail.com",
-    "status": "Close Friends"
+    "email": "isabella.thompson@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Isabella Thompson. I enjoy painting and expressing my creativity through art.",
+    "dateAdded": "2015-10-30",
+    "image": "https://robohash.org/defghi"
   },
   {
-    "name": "Mia Davis",
+    "id": 25,
+    "slug": "logan-wilson",
+    "name": "Logan Wilson",
     "phoneNumber": "(567) 890-1234",
-    "email": "mia.davis@yahoo.com",
-    "status": ""
+    "email": "logan.wilson@yahoo.com",
+    "status": "",
+    "about": "I'm Logan Wilson. I'm a fitness enthusiast and love staying active through various sports and workouts.",
+    "dateAdded": "2016-01-07",
+    "image": "https://robohash.org/jklmno"
   },
   {
-    "name": "Noah Smith",
+    "id": 26,
+    "slug": "sophia-johnson",
+    "name": "Sophia Johnson",
     "phoneNumber": "(678) 901-2345",
-    "email": "noah.smith@gmail.com",
-    "status": ""
+    "email": "sophia.johnson@gmail.com",
+    "status": "Best Friends",
+    "about": "Hey there, I'm Sophia Johnson. I have a passion for photography and love capturing beautiful moments.",
+    "dateAdded": "2016-03-19",
+    "image": "https://robohash.org/pqrstuv"
   },
   {
-    "name": "Elizabeth Johnson",
+    "id": 27,
+    "slug": "lucas-thomas",
+    "name": "Lucas Thomas",
     "phoneNumber": "(789) 012-3456",
-    "email": "elizabeth.johnson@hotmail.com",
-    "status": "Super Close Friends"
+    "email": "lucas.thomas@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Lucas Thomas. I enjoy coding and building web applications in my free time.",
+    "dateAdded": "2016-05-28",
+    "image": "https://robohash.org/wxyz12"
   },
   {
-    "name": "Sofia Wilson",
+    "id": 28,
+    "slug": "lily-jackson",
+    "name": "Lily Jackson",
     "phoneNumber": "(890) 123-4567",
-    "email": "sofia.wilson@yahoo.com",
-    "status": ""
+    "email": "lily.jackson@gmail.com",
+    "status": "",
+    "about": "Hey, I'm Lily Jackson. I'm a bookworm and enjoy getting lost in different fictional worlds.",
+    "dateAdded": "2016-08-11",
+    "image": "https://robohash.org/345678"
   },
   {
-    "name": "Benjamin Moore",
+    "id": 29,
+    "slug": "noah-harris",
+    "name": "Noah Harris",
     "phoneNumber": "(901) 234-5678",
-    "email": "benjamin.moore@gmail.com",
-    "status": ""
+    "email": "noah.harris@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Noah Harris. I love traveling and exploring new cultures and cuisines.",
+    "dateAdded": "2016-10-20",
+    "image": "https://robohash.org/90abcd"
   },
   {
-    "name": "Elijah Taylor",
+    "id": 30,
+    "slug": "emma-thompson",
+    "name": "Emma Thompson",
     "phoneNumber": "(012) 345-6789",
-    "email": "elijah.taylor@hotmail.com",
-    "status": "Close Friends"
+    "email": "emma.thompson@yahoo.com",
+    "status": "Close Friends",
+    "about": "Hey there, I'm Emma Thompson. I enjoy playing the piano and composing my own music.",
+    "dateAdded": "2016-12-05",
+    "image": "https://robohash.org/efghij"
   },
   {
-    "name": "Camila Anderson",
+    "id": 31,
+    "slug": "jacob-martin",
+    "name": "Jacob Martin",
     "phoneNumber": "(123) 456-7890",
-    "email": "camila.anderson@gmail.com",
-    "status": ""
+    "email": "jacob.martin@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Jacob Martin. I'm a nature lover and enjoy hiking and camping in the great outdoors.",
+    "dateAdded": "2017-02-17",
+    "image": "https://robohash.org/klmnop"
   },
   {
-    "name": "Madison Smith",
+    "id": 32,
+    "slug": "olivia-wilson",
+    "name": "Olivia Wilson",
     "phoneNumber": "(234) 567-8901",
-    "email": "madison.smith@yahoo.com",
-    "status": ""
+    "email": "olivia.wilson@hotmail.com",
+    "status": "Best Friends",
+    "about": "Hey, I'm Olivia Wilson. I'm a foodie and love trying out new recipes and restaurants.",
+    "dateAdded": "2017-04-29",
+    "image": "https://robohash.org/qrstu1"
   },
   {
-    "name": "Carter Johnson",
+    "id": 33,
+    "slug": "william-jones",
+    "name": "William Jones",
     "phoneNumber": "(345) 678-9012",
-    "email": "carter.johnson@hotmail.com",
-    "status": "Super Close Friends"
+    "email": "william.jones@gmail.com",
+    "status": "",
+    "about": "Hi, I'm William Jones. I'm passionate about photography and love capturing moments from different perspectives.",
+    "dateAdded": "2017-06-14",
+    "image": "https://robohash.org/vwxyz2"
   },
   {
-    "name": "Luna Brown",
+    "id": 34,
+    "slug": "sophia-brown",
+    "name": "Sophia Brown",
     "phoneNumber": "(456) 789-0123",
-    "email": "luna.brown@gmail.com",
-    "status": ""
+    "email": "sophia.brown@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Sophia Brown. I enjoy painting and expressing my creativity through art.",
+    "dateAdded": "2017-08-27",
+    "image": "https://robohash.org/345678"
   },
   {
-    "name": "Henry Davis",
+    "id": 35,
+    "slug": "liam-davis",
+    "name": "Liam Davis",
     "phoneNumber": "(567) 890-1234",
-    "email": "henry.davis@yahoo.com",
-    "status": ""
+    "email": "liam.davis@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Liam Davis. I'm a sports enthusiast and enjoy playing soccer and basketball.",
+    "dateAdded": "2017-11-09",
+    "image": "https://robohash.org/90abcd"
   },
   {
-    "name": "Sebastian Wilson",
+    "id": 36,
+    "slug": "ava-miller",
+    "name": "Ava Miller",
     "phoneNumber": "(678) 901-2345",
-    "email": "sebastian.wilson@gmail.com",
-    "status": "Close Friends"
+    "email": "ava.miller@gmail.com",
+    "status": "",
+    "about": "Hey, I'm Ava Miller. I'm a fashion enthusiast and love experimenting with different styles.",
+    "dateAdded": "2018-02-01",
+    "image": "https://robohash.org/efghij"
   },
   {
-    "name": "Scarlett Johnson",
+    "id": 37,
+    "slug": "ethan-wilson",
+    "name": "Ethan Wilson",
     "phoneNumber": "(789) 012-3456",
-    "email": "scarlett.johnson@hotmail.com",
-    "status": ""
+    "email": "ethan.wilson@yahoo.com",
+    "status": "",
+    "about": "Hi, I'm Ethan Wilson. I'm a technology geek and enjoy building and programming robots.",
+    "dateAdded": "2018-04-15",
+    "image": "https://robohash.org/klmnop"
   },
   {
-    "name": "Grayson Smith",
+    "id": 38,
+    "slug": "olivia-martinez",
+    "name": "Olivia Martinez",
     "phoneNumber": "(890) 123-4567",
-    "email": "grayson.smith@gmail.com",
-    "status": "Super Close Friends"
+    "email": "olivia.martinez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Olivia Martinez. I'm a music lover and enjoy playing the piano and singing.",
+    "dateAdded": "2018-07-29",
+    "image": "https://robohash.org/qrstu1"
   },
   {
-    "name": "Zoey Anderson",
+    "id": 39,
+    "slug": "noah-anderson",
+    "name": "Noah Anderson",
     "phoneNumber": "(901) 234-5678",
-    "email": "zoey.anderson@yahoo.com",
-    "status": ""
+    "email": "noah.anderson@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Noah Anderson. I'm passionate about traveling and exploring new cultures.",
+    "dateAdded": "2018-10-12",
+    "image": "https://robohash.org/vwxyz2"
   },
   {
-    "name": "Mila Davis",
+    "id": 40,
+    "slug": "emma-thomas",
+    "name": "Emma Thomas",
     "phoneNumber": "(012) 345-6789",
-    "email": "mila.davis@hotmail.com",
-    "status": ""
+    "email": "emma.thomas@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Emma Thomas. I enjoy reading and writing poetry in my free time.",
+    "dateAdded": "2018-12-26",
+    "image": "https://robohash.org/345678"
   },
   {
-    "name": "Jackson Johnson",
+    "id": 41,
+    "slug": "liam-johnson",
+    "name": "Liam Johnson",
     "phoneNumber": "(123) 456-7890",
-    "email": "jackson.johnson@gmail.com",
-    "status": "Close Friends"
+    "email": "liam.johnson@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Liam Johnson. I'm a foodie and love experimenting with new recipes in the kitchen.",
+    "dateAdded": "2019-03-11",
+    "image": "https://robohash.org/90abcd"
   },
   {
-    "name": "Avery Wilson",
+    "id": 42,
+    "slug": "ava-martinez",
+    "name": "Ava Martinez",
     "phoneNumber": "(234) 567-8901",
-    "email": "avery.wilson@yahoo.com",
-    "status": ""
+    "email": "ava.martinez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Ava Martinez. I'm passionate about environmental conservation and love hiking in nature.",
+    "dateAdded": "2019-05-25",
+    "image": "https://robohash.org/efghij"
   },
   {
-    "name": "Evelyn Moore",
+    "id": 43,
+    "slug": "ethan-rodriguez",
+    "name": "Ethan Rodriguez",
     "phoneNumber": "(345) 678-9012",
-    "email": "evelyn.moore@hotmail.com",
-    "status": ""
+    "email": "ethan.rodriguez@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Ethan Rodriguez. I'm an avid sports fan and enjoy playing basketball in my free time.",
+    "dateAdded": "2019-08-07",
+    "image": "https://robohash.org/klmnop"
   },
   {
-    "name": "Levi Brown",
+    "id": 44,
+    "slug": "mia-lee",
+    "name": "Mia Lee",
     "phoneNumber": "(456) 789-0123",
-    "email": "levi.brown@gmail.com",
-    "status": "Super Close Friends"
+    "email": "mia.lee@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Mia Lee. I love photography and capturing beautiful moments.",
+    "dateAdded": "2019-10-21",
+    "image": "https://robohash.org/qrstu1"
   },
+
   {
-    "name": "Chloe Davis",
+    "id": 45,
+    "slug": "jackson-wang",
+    "name": "Jackson Wang",
     "phoneNumber": "(567) 890-1234",
-    "email": "chloe.davis@yahoo.com",
-    "status": ""
+    "email": "jackson.wang@hotmail.com",
+    "status": "",
+    "about": "Hello, I'm Jackson Wang. I'm a music producer and enjoy creating beats in my studio.",
+    "dateAdded": "2019-12-05",
+    "image": "https://robohash.org/vwxyz2"
   },
   {
-    "name": "Mateo Smith",
+    "id": 46,
+    "slug": "sophia-hernandez",
+    "name": "Sophia Hernandez",
     "phoneNumber": "(678) 901-2345",
-    "email": "mateo.smith@gmail.com",
-    "status": ""
+    "email": "sophia.hernandez@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Sophia Hernandez. I'm a bookworm and love getting lost in the world of fiction.",
+    "dateAdded": "2020-02-19",
+    "image": "https://robohash.org/345678"
   },
   {
-    "name": "Riley Johnson",
+    "id": 47,
+    "slug": "aiden-gonzalez",
+    "name": "Aiden Gonzalez",
     "phoneNumber": "(789) 012-3456",
-    "email": "riley.johnson@hotmail.com",
-    "status": "Close Friends"
+    "email": "aiden.gonzalez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Aiden Gonzalez. I'm passionate about fitness and enjoy weightlifting at the gym.",
+    "dateAdded": "2020-04-04",
+    "image": "https://robohash.org/90abcd"
   },
   {
-    "name": "Aria Wilson",
+    "id": 48,
+    "slug": "charlotte-rodriguez",
+    "name": "Charlotte Rodriguez",
     "phoneNumber": "(890) 123-4567",
-    "email": "aria.wilson@yahoo.com",
-    "status": ""
+    "email": "charlotte.rodriguez@hotmail.com",
+    "status": "",
+    "about": "Hello, I'm Charlotte Rodriguez. I'm a fashion enthusiast and love experimenting with different styles.",
+    "dateAdded": "2020-06-19",
+    "image": "https://robohash.org/efghij"
   },
   {
-    "name": "Liam Moore",
+    "id": 49,
+    "slug": "lucas-liu",
+    "name": "Lucas Liu",
     "phoneNumber": "(901) 234-5678",
-    "email": "liam.moore@gmail.com",
-    "status": ""
+    "email": "lucas.liu@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Lucas Liu. I enjoy playing video games and streaming them online.",
+    "dateAdded": "2020-08-05",
+    "image": "https://robohash.org/klmnop"
   },
   {
-    "name": "Layla Taylor",
+    "id": 50,
+    "slug": "amelia-smith",
+    "name": "Amelia Smith",
     "phoneNumber": "(012) 345-6789",
-    "email": "layla.taylor@hotmail.com",
-    "status": "Super Close Friends"
+    "email": "amelia.smith@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Amelia Smith. I'm a nature lover and enjoy hiking in my free time.",
+    "dateAdded": "2020-10-21",
+    "image": "https://robohash.org/qrstu1"
   },
   {
-    "name": "Wyatt Anderson",
+    "id": 51,
+    "slug": "dylan-lee",
+    "name": "Dylan Lee",
     "phoneNumber": "(123) 456-7890",
-    "email": "wyatt.anderson@gmail.com",
-    "status": ""
+    "email": "dylan.lee@hotmail.com",
+    "status": "",
+    "about": "Hello, I'm Dylan Lee. I'm a tech enthusiast and love exploring the latest gadgets.",
+    "dateAdded": "2020-12-07",
+    "image": "https://robohash.org/vwxyz2"
   },
   {
-    "name": "Harper Smith",
+    "id": 52,
+    "slug": "olivia-thompson",
+    "name": "Olivia Thompson",
     "phoneNumber": "(234) 567-8901",
-    "email": "harper.smith@yahoo.com",
-    "status": ""
+    "email": "olivia.thompson@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Olivia Thompson. I'm a foodie and enjoy trying out new restaurants and cuisines.",
+    "dateAdded": "2021-02-22",
+    "image": "https://robohash.org/345678"
   },
   {
-    "name": "Logan Johnson",
+    "id": 53,
+    "slug": "noah-rodriguez",
+    "name": "Noah Rodriguez",
     "phoneNumber": "(345) 678-9012",
-    "email": "logan.johnson@hotmail.com",
-    "status": "Close Friends"
+    "email": "noah.rodriguez@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Noah Rodriguez. I'm a travel enthusiast and love exploring new destinations.",
+    "dateAdded": "2021-05-09",
+    "image": "https://robohash.org/90abcd"
   },
   {
-    "name": "Grace Brown",
+    "id": 54,
+    "slug": "emily-lee",
+    "name": "Emily Lee",
     "phoneNumber": "(456) 789-0123",
-    "email": "grace.brown@gmail.com",
-    "status": ""
+    "email": "emily.lee@hotmail.com",
+    "status": "",
+    "about": "Hello, I'm Emily Lee. I'm a pet lover and enjoy spending time with my adorable dogs.",
+    "dateAdded": "2021-07-27",
+    "image": "https://robohash.org/efghij"
   },
   {
-    "name": "Elijah Davis",
+    "id": 55,
+    "slug": "jacob-wang",
+    "name": "Jacob Wang",
     "phoneNumber": "(567) 890-1234",
-    "email": "elijah.davis@yahoo.com",
-    "status": ""
+    "email": "jacob.wang@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Jacob Wang. I'm a software developer and enjoy coding innovative solutions.",
+    "dateAdded": "2021-10-15",
+    "image": "https://robohash.org/klmnop"
   },
   {
-    "name": "Savannah Wilson",
+    "id": 56,
+    "slug": "mia-hernandez",
+    "name": "Mia Hernandez",
     "phoneNumber": "(678) 901-2345",
-    "email": "savannah.wilson@gmail.com",
-    "status": "Super Close Friends"
+    "email": "mia.hernandez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Mia Hernandez. I'm a music lover and enjoy playing the piano in my spare time.",
+    "dateAdded": "2022-01-06",
+    "image": "https://robohash.org/qrstu1"
   },
   {
-    "name": "Nathan Johnson",
+    "id": 57,
+    "slug": "ethan-gonzalez",
+    "name": "Ethan Gonzalez",
     "phoneNumber": "(789) 012-3456",
-    "email": "nathan.johnson@hotmail.com",
-    "status": ""
+    "email": "ethan.gonzalez@hotmail.com",
+    "status": "",
+    "about": "Hello, I'm Ethan Gonzalez. I'm a fitness enthusiast and enjoy practicing martial arts.",
+    "dateAdded": "2022-03-26",
+    "image": "https://robohash.org/vwxyz2"
   },
   {
-    "name": "Addison Smith",
+    "id": 58,
+    "slug": "sophia-rodriguez",
+    "name": "Sophia Rodriguez",
     "phoneNumber": "(890) 123-4567",
-    "email": "addison.smith@gmail.com",
-    "status": ""
+    "email": "sophia.rodriguez@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Sophia Rodriguez. I love painting and expressing my creativity through art.",
+    "dateAdded": "2022-06-19",
+    "image": "https://robohash.org/345678"
   },
   {
-    "name": "Elizabeth Anderson",
+    "id": 59,
+    "slug": "aiden-lee",
+    "name": "Aiden Lee",
     "phoneNumber": "(901) 234-5678",
-    "email": "elizabeth.anderson@yahoo.com",
-    "status": "Close Friends"
+    "email": "aiden.lee@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Aiden Lee. I'm a movie buff and enjoy watching films from various genres.",
+    "dateAdded": "2022-09-15",
+    "image": "https://robohash.org/90abcd"
   },
   {
-    "name": "Eli Moore",
+    "id": 60,
+    "slug": "charlotte-thompson",
+    "name": "Charlotte Thompson",
     "phoneNumber": "(012) 345-6789",
-    "email": "eli.moore@hotmail.com",
-    "status": ""
+    "email": "charlotte.thompson@hotmail.com",
+    "status": "",
+    "about": "Hello, I'm Charlotte Thompson. I'm a nature photographer and love capturing scenic landscapes.",
+    "dateAdded": "2022-12-12",
+    "image": "https://robohash.org/efghij"
   },
   {
-    "name": "Aubrey Davis",
+    "id": 61,
+    "slug": "lucas-rodriguez",
+    "name": "Lucas Rodriguez",
     "phoneNumber": "(123) 456-7890",
-    "email": "aubrey.davis@gmail.com",
-    "status": ""
+    "email": "lucas.rodriguez@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Lucas Rodriguez. I'm a food enthusiast and enjoy cooking delicious meals.",
+    "dateAdded": "2023-03-11",
+    "image": "https://robohash.org/klmnopq"
   },
   {
-    "name": "Victoria Wilson",
+    "id": 62,
+    "slug": "amelia-gonzalez",
+    "name": "Amelia Gonzalez",
     "phoneNumber": "(234) 567-8901",
-    "email": "victoria.wilson@yahoo.com",
-    "status": "Super Close Friends"
+    "email": "amelia.gonzalez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Amelia Gonzalez. I'm an animal rights activist and passionate about promoting compassion towards animals.",
+    "dateAdded": "2023-06-06",
+    "image": "https://robohash.org/rstuvwxy"
   },
   {
-    "name": "Jack Smith",
+    "id": 63,
+    "slug": "dylan-thompson",
+    "name": "Dylan Thompson",
     "phoneNumber": "(345) 678-9012",
-    "email": "jack.smith@hotmail.com",
-    "status": ""
+    "email": "dylan.thompson@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Dylan Thompson. I'm a technology enthusiast and enjoy building and repairing computers.",
+    "dateAdded": "2023-09-03",
+    "image": "https://robohash.org/z1234567"
   },
   {
-    "name": "Avery Brown",
+    "id": 64,
+    "slug": "olivia-gonzalez",
+    "name": "Olivia Gonzalez",
     "phoneNumber": "(456) 789-0123",
-    "email": "avery.brown@gmail.com",
-    "status": ""
+    "email": "olivia.gonzalez@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Olivia Gonzalez. I'm a fitness enthusiast and enjoy practicing yoga and Pilates.",
+    "dateAdded": "2023-12-01",
+    "image": "https://robohash.org/890abcdef"
   },
   {
-    "name": "Sophia Davis",
+    "id": 65,
+    "slug": "noah-thompson",
+    "name": "Noah Thompson",
     "phoneNumber": "(567) 890-1234",
-    "email": "sophia.davis@yahoo.com",
-    "status": "Close Friends"
+    "email": "noah.thompson@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Noah Thompson. I'm a music lover and enjoy playing the guitar.",
+    "dateAdded": "2023-02-28",
+    "image": "https://robohash.org/ghijklmno"
   },
   {
-    "name": "Daniel Johnson",
+    "id": 66,
+    "slug": "emily-gonzalez",
+    "name": "Emily Gonzalez",
     "phoneNumber": "(678) 901-2345",
-    "email": "daniel.johnson@gmail.com",
-    "status": ""
+    "email": "emily.gonzalez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Emily Gonzalez. I'm a fashion blogger and love sharing my style tips and outfits.",
+    "dateAdded": "2023-05-26",
+    "image": "https://robohash.org/pqrstuvwx"
   },
   {
-    "name": "Emily Smith",
+    "id": 67,
+    "slug": "jacob-thompson",
+    "name": "Jacob Thompson",
     "phoneNumber": "(789) 012-3456",
-    "email": "emily.smith@yahoo.com",
-    "status": "Close Friends"
+    "email": "jacob.thompson@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Jacob Thompson. I'm a coffee enthusiast and enjoy exploring different coffee shops.",
+    "dateAdded": "2023-08-24",
+    "image": "https://robohash.org/yz12345678"
   },
   {
-    "name": "Michael Anderson",
+    "id": 68,
+    "slug": "mia-rodriguez",
+    "name": "Mia Rodriguez",
     "phoneNumber": "(890) 123-4567",
-    "email": "michael.anderson@gmail.com",
-    "status": ""
+    "email": "mia.rodriguez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Mia Rodriguez. I'm an artist and love creating paintings and sculptures.",
+    "dateAdded": "2023-11-22",
+    "image": "https://robohash.org/90abcdefgh"
   },
   {
-    "name": "Olivia Moore",
+    "id": 69,
+    "slug": "ethan-lee",
+    "name": "Ethan Lee",
     "phoneNumber": "(901) 234-5678",
-    "email": "olivia.moore@yahoo.com",
-    "status": ""
+    "email": "ethan.lee@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Ethan Lee. I'm a sports enthusiast and enjoy playing soccer and tennis.",
+    "dateAdded": "2023-02-20",
+    "image": "https://robohash.org/ijklmnopqr"
   },
   {
-    "name": "William Brown",
+    "id": 70,
+    "slug": "sophia-thompson",
+    "name": "Sophia Thompson",
     "phoneNumber": "(012) 345-6789",
-    "email": "william.brown@hotmail.com",
-    "status": "Super Close Friends"
+    "email": "sophia.thompson@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Sophia Thompson. I'm a travel blogger and love sharing my adventures around the world.",
+    "dateAdded": "2023-05-21",
+    "image": "https://robohash.org/stuvwxyz12"
   },
   {
-    "name": "Charlotte Davis",
+    "id": 71,
+    "slug": "aiden-gonzalez",
+    "name": "Aiden Gonzalez",
     "phoneNumber": "(123) 456-7890",
-    "email": "charlotte.davis@gmail.com",
-    "status": ""
+    "email": "aiden.gonzalez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Aiden Gonzalez. I'm a fitness trainer and enjoy helping others achieve their health goals.",
+    "dateAdded": "2023-08-21",
+    "image": "https://robohash.org/34567890ab"
   },
   {
-    "name": "Sofia Johnson",
+    "id": 72,
+    "slug": "charlotte-lee",
+    "name": "Charlotte Lee",
     "phoneNumber": "(234) 567-8901",
-    "email": "sofia.johnson@yahoo.com",
-    "status": ""
+    "email": "charlotte.lee@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Charlotte Lee. I'm a book lover and enjoy exploring different genres of literature.",
+    "dateAdded": "2023-11-24",
+    "image": "https://robohash.org/cdefghijklmno"
   },
   {
-    "name": "Joseph Smith",
+    "id": 73,
+    "slug": "lucas-thompson",
+    "name": "Lucas Thompson",
     "phoneNumber": "(345) 678-9012",
-    "email": "joseph.smith@hotmail.com",
-    "status": "Close Friends"
+    "email": "lucas.thompson@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Lucas Thompson. I'm a technology enthusiast and enjoy building and programming robots.",
+    "dateAdded": "2023-02-26",
+    "image": "https://robohash.org/pqrstuvwxyz123"
   },
   {
-    "name": "Avery Wilson",
+    "id": 74,
+    "slug": "amelia-rodriguez",
+    "name": "Amelia Rodriguez",
     "phoneNumber": "(456) 789-0123",
-    "email": "avery.wilson@gmail.com",
-    "status": ""
+    "email": "amelia.rodriguez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Amelia Rodriguez. I'm a musician and enjoy playing the violin and piano.",
+    "dateAdded": "2023-05-31",
+    "image": "https://robohash.org/4567890abcdef"
   },
   {
-    "name": "Harper Anderson",
+    "id": 75,
+    "slug": "dylan-gonzalez",
+    "name": "Dylan Gonzalez",
     "phoneNumber": "(567) 890-1234",
-    "email": "harper.anderson@yahoo.com",
-    "status": ""
+    "email": "dylan.gonzalez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Dylan Gonzalez. I'm a software engineer and enjoy developing innovative applications.",
+    "dateAdded": "2023-09-05",
+    "image": "https://robohash.org/abcdefghijklm"
   },
   {
-    "name": "Benjamin Davis",
+    "id": 76,
+    "slug": "olivia-lee",
+    "name": "Olivia Lee",
     "phoneNumber": "(678) 901-2345",
-    "email": "benjamin.davis@gmail.com",
-    "status": "Super Close Friends"
+    "email": "olivia.lee@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Olivia Lee. I'm a food enthusiast and enjoy exploring different culinary experiences.",
+    "dateAdded": "2023-12-10",
+    "image": "https://robohash.org/nopqrstuvwxyz12"
   },
   {
-    "name": "Mia Johnson",
+    "id": 77,
+    "slug": "noah-gonzalez",
+    "name": "Noah Gonzalez",
     "phoneNumber": "(789) 012-3456",
-    "email": "mia.johnson@hotmail.com",
-    "status": ""
+    "email": "noah.gonzalez@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Noah Gonzalez. I'm a photography enthusiast and love capturing the beauty of the world.",
+    "dateAdded": "2023-03-16",
+    "image": "https://robohash.org/34567890abcdefgh"
   },
   {
-    "name": "Alexander Smith",
+    "id": 78,
+    "slug": "emily-thompson",
+    "name": "Emily Thompson",
     "phoneNumber": "(890) 123-4567",
-    "email": "alexander.smith@gmail.com",
-    "status": ""
+    "email": "emily.thompson@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Emily Thompson. I'm a fitness enthusiast and enjoy participating in marathons and triathlons.",
+    "dateAdded": "2023-06-23",
+    "image": "https://robohash.org/ijklmnopqrstuvw"
   },
   {
-    "name": "Scarlett Moore",
+    "id": 79,
+    "slug": "jacob-gonzalez",
+    "name": "Jacob Gonzalez",
     "phoneNumber": "(901) 234-5678",
-    "email": "scarlett.moore@yahoo.com",
-    "status": "Close Friends"
+    "email": "jacob.gonzalez@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Jacob Gonzalez. I'm a gaming enthusiast and enjoy playing a wide variety of video games.",
+    "dateAdded": "2023-09-30",
+    "image": "https://robohash.org/xyz123456789abcd"
   },
   {
-    "name": "James Brown",
+    "id": 80,
+    "slug": "mia-lee",
+    "name": "Mia Lee",
     "phoneNumber": "(012) 345-6789",
-    "email": "james.brown@hotmail.com",
-    "status": ""
+    "email": "mia.lee@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Mia Lee. I'm a fashion designer and love creating unique and stylish clothing.",
+    "dateAdded": "2023-01-08",
+    "image": "https://robohash.org/efghijklmnopqrstuv"
   },
   {
-    "name": "Madison Davis",
+    "id": 81,
+    "slug": "ethan-thompson",
+    "name": "Ethan Thompson",
     "phoneNumber": "(123) 456-7890",
-    "email": "madison.davis@gmail.com",
-    "status": ""
+    "email": "ethan.thompson@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Ethan Thompson. I'm a nature enthusiast and enjoy camping and hiking in the great outdoors.",
+    "dateAdded": "2023-04-18",
+    "image": "https://robohash.org/wxyz123456789abcdef"
   },
   {
-    "name": "David Wilson",
-    "phoneNumber": "(567) 890-1234",
-    "email": "david.wilson@yahoo.com",
-    "status": "Super Close Friends"
-  },
-  {
-    "name": "Emily Moore",
-    "phoneNumber": "(678) 901-2345",
-    "email": "emily.moore@hotmail.com",
-    "status": ""
-  },
-  {
-    "name": "James Taylor",
-    "phoneNumber": "(789) 012-3456",
-    "email": "james.taylor@gmail.com",
-    "status": ""
-  },
-  {
-    "name": "Olivia Smith",
-    "phoneNumber": "(890) 123-4567",
-    "email": "olivia.smith@yahoo.com",
-    "status": "Close Friends"
-  },
-  {
-    "name": "Daniel Johnson",
-    "phoneNumber": "(901) 234-5678",
-    "email": "daniel.johnson@gmail.com",
-    "status": ""
-  },
-  {
-    "name": "Sophia Davis",
-    "phoneNumber": "(012) 345-6789",
-    "email": "sophia.davis@hotmail.com",
-    "status": ""
-  },
-  {
-    "name": "Aiden Anderson",
-    "phoneNumber": "(123) 456-7890",
-    "email": "aiden.anderson@gmail.com",
-    "status": "Super Close Friends"
-  },
-  {
-    "name": "Abigail Wilson",
+    "id": 82,
+    "slug": "sophia-gonzalez",
+    "name": "Sophia Gonzalez",
     "phoneNumber": "(234) 567-8901",
-    "email": "abigail.wilson@yahoo.com",
-    "status": ""
+    "email": "sophia.gonzalez@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Sophia Gonzalez. I'm a dog lover and enjoy spending time with my furry companions.",
+    "dateAdded": "2023-08-01",
+    "image": "https://robohash.org/ghijklmnopqrstuvwxyz12"
   },
   {
-    "name": "Ethan Johnson",
+    "id": 83,
+    "slug": "aiden-thompson",
+    "name": "Aiden Thompson",
     "phoneNumber": "(345) 678-9012",
-    "email": "ethan.johnson@hotmail.com",
-    "status": ""
+    "email": "aiden.thompson@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Aiden Thompson. I'm a music producer and enjoy creating and remixing tracks.",
+    "dateAdded": "2023-11-14",
+    "image": "https://robohash.org/34567890abcdefghij"
   },
   {
-    "name": "Amelia Brown",
+    "id": 84,
+    "slug": "charlotte-gonzalez",
+    "name": "Charlotte Gonzalez",
     "phoneNumber": "(456) 789-0123",
-    "email": "amelia.brown@gmail.com",
-    "status": "Close Friends"
+    "email": "charlotte.gonzalez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Charlotte Gonzalez. I'm a travel enthusiast and love exploring different cultures and destinations.",
+    "dateAdded": "2023-03-01",
+    "image": "https://robohash.org/klmnopqrstuvwxyz123"
   },
   {
-    "name": "Mia Davis",
+    "id": 85,
+    "slug": "lucas-lee",
+    "name": "Lucas Lee",
     "phoneNumber": "(567) 890-1234",
-    "email": "mia.davis@yahoo.com",
-    "status": ""
+    "email": "lucas.lee@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Lucas Lee. I'm a car enthusiast and enjoy working on and modifying vehicles.",
+    "dateAdded": "2023-06-18",
+    "image": "https://robohash.org/4567890abcdefghijklm"
   },
   {
-    "name": "Noah Smith",
+    "id": 86,
+    "slug": "amelia-rodriguez",
+    "name": "Amelia Rodriguez",
     "phoneNumber": "(678) 901-2345",
-    "email": "noah.smith@gmail.com",
-    "status": ""
+    "email": "amelia.rodriguez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Amelia Rodriguez. I'm a photography enthusiast and love capturing beautiful moments.",
+    "dateAdded": "2023-10-02",
+    "image": "https://robohash.org/nopqrstuvwxyz12345"
   },
   {
-    "name": "Elizabeth Johnson",
+    "id": 87,
+    "slug": "logan-king",
+    "name": "Logan King",
     "phoneNumber": "(789) 012-3456",
-    "email": "elizabeth.johnson@hotmail.com",
-    "status": "Super Close Friends"
+    "email": "logan.king@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Logan King. I'm a foodie and enjoy trying out new restaurants and cuisines.",
+    "dateAdded": "2023-01-12",
+    "image": "https://robohash.org/67890abcdefghijklmn"
   },
   {
-    "name": "Sofia Wilson",
+    "id": 88,
+    "slug": "ava-rodriguez",
+    "name": "Ava Rodriguez",
     "phoneNumber": "(890) 123-4567",
-    "email": "sofia.wilson@yahoo.com",
-    "status": ""
+    "email": "ava.rodriguez@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Ava Rodriguez. I'm an art lover and enjoy painting and visiting art galleries.",
+    "dateAdded": "2023-04-26",
+    "image": "https://robohash.org/pqrstuvwxyz123456"
   },
   {
-    "name": "Benjamin Moore",
+    "id": 89,
+    "slug": "noah-king",
+    "name": "Noah King",
     "phoneNumber": "(901) 234-5678",
-    "email": "benjamin.moore@gmail.com",
-    "status": ""
+    "email": "noah.king@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Noah King. I'm a technology enthusiast and enjoy exploring the latest gadgets.",
+    "dateAdded": "2023-09-11",
+    "image": "https://robohash.org/7890abcdefghijklmnopq"
   },
   {
-    "name": "Elijah Taylor",
+    "id": 90,
+    "slug": "olivia-rodriguez",
+    "name": "Olivia Rodriguez",
     "phoneNumber": "(012) 345-6789",
-    "email": "elijah.taylor@hotmail.com",
-    "status": "Close Friends"
+    "email": "olivia.rodriguez@yahoo.com",
+    "status": "",
+    "about": "Hey, I'm Olivia Rodriguez. I'm a bookworm and enjoy reading a wide variety of genres.",
+    "dateAdded": "2023-01-30",
+    "image": "https://robohash.org/rstuvwxyz1234567"
   },
   {
-    "name": "Camila Anderson",
+    "id": 91,
+    "slug": "liam-king",
+    "name": "Liam King",
     "phoneNumber": "(123) 456-7890",
-    "email": "camila.anderson@gmail.com",
-    "status": ""
+    "email": "liam.king@gmail.com",
+    "status": "",
+    "about": "Hi, I'm Liam King. I'm a sports enthusiast and enjoy playing and watching various sports.",
+    "dateAdded": "2023-06-21",
+    "image": "https://robohash.org/890abcdefghijklmnopqr"
   },
   {
-    "name": "Madison Smith",
+    "id": 92,
+    "slug": "isabella-rodriguez",
+    "name": "Isabella Rodriguez",
     "phoneNumber": "(234) 567-8901",
-    "email": "madison.smith@yahoo.com",
-    "status": ""
+    "email": "isabella.rodriguez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Isabella Rodriguez. I'm a music lover and enjoy playing the piano and singing.",
+    "dateAdded": "2023-11-16",
+    "image": "https://robohash.org/stuvwxyz1234567890"
   },
   {
-    "name": "Carter Johnson",
+    "id": 93,
+    "slug": "mason-king",
+    "name": "Mason King",
     "phoneNumber": "(345) 678-9012",
-    "email": "carter.johnson@hotmail.com",
-    "status": "Super Close Friends"
+    "email": "mason.king@yahoo.com",
+    "status": "",
+    "about": "Hey there, I'm Mason King. I'm a travel enthusiast and enjoy exploring new destinations.",
+    "dateAdded": "2023-03-04",
+    "image": "https://robohash.org/abcdefghijklmno123456"
+  },
+  {
+    "id": 94,
+    "slug": "sophia-rodriguez",
+    "name": "Sophia Rodriguez",
+    "phoneNumber": "(456) 789-0123",
+    "email": "sophia.rodriguez@hotmail.com",
+    "status": "",
+    "about": "Hi, I'm Sophia Rodriguez. I'm a fashion enthusiast and enjoy following the latest trends.",
+    "dateAdded": "2023-07-19",
+    "image": "https://robohash.org/pqrstuvwxyz12345678"
+  },
+  {
+    "id": 95,
+    "slug": "jackson-king",
+    "name": "Jackson King",
+    "phoneNumber": "(567) 890-1234",
+    "email": "jackson.king@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Jackson King. I'm a fitness enthusiast and enjoy staying active through various workouts.",
+    "dateAdded": "2023-12-12",
+    "image": "https://robohash.org/234567890abcdefghijkl"
+  },
+  {
+    "id": 96,
+    "slug": "emma-rodriguez",
+    "name": "Emma Rodriguez",
+    "phoneNumber": "(678) 901-2345",
+    "email": "emma.rodriguez@yahoo.com",
+    "status": "",
+    "about": "Hi, I'm Emma Rodriguez. I'm a nature lover and enjoy hiking and exploring the outdoors.",
+    "dateAdded": "2023-05-08",
+    "image": "https://robohash.org/mnopqrstuvwxyz1234567"
+  },
+  {
+    "id": 97,
+    "slug": "aiden-king",
+    "name": "Aiden King",
+    "phoneNumber": "(789) 012-3456",
+    "email": "aiden.king@hotmail.com",
+    "status": "",
+    "about": "Hey, I'm Aiden King. I'm a gaming enthusiast and enjoy playing a wide variety of video games.",
+    "dateAdded": "2023-10-05",
+    "image": "https://robohash.org/890abcdefghijklmnopqrst"
+  },
+  {
+    "id": 98,
+    "slug": "mia-rodriguez",
+    "name": "Mia Rodriguez",
+    "phoneNumber": "(890) 123-4567",
+    "email": "mia.rodriguez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Mia Rodriguez. I'm an animal lover and enjoy volunteering at local animal shelters.",
+    "dateAdded": "2023-03-03",
+    "image": "https://robohash.org/uvwxyz1234567890abcdef"
+  },
+  {
+    "id": 99,
+    "slug": "ethan-king",
+    "name": "Ethan King",
+    "phoneNumber": "(901) 234-5678",
+    "email": "ethan.king@yahoo.com",
+    "status": "",
+    "about": "Hi, I'm Ethan King. I'm a technology enthusiast and enjoy programming and building websites.",
+    "dateAdded": "2023-08-01",
+    "image": "https://robohash.org/abcdefghijklmno123456789"
+  },
+  {
+    "id": 100,
+    "slug": "harper-rodriguez",
+    "name": "Harper Rodriguez",
+    "phoneNumber": "(012) 345-6789",
+    "email": "harper.rodriguez@gmail.com",
+    "status": "",
+    "about": "Hello, I'm Harper Rodriguez. I'm a movie buff and enjoy watching films from various genres.",
+    "dateAdded": "2023-12-30",
+    "image": "https://robohash.org/pqrstuvwxyz1234567890abcd"
   }
 ]
