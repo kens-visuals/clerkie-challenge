@@ -14,17 +14,38 @@
 }
 
 /* Tablet */
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .main {
     /* background-color: var(--primary); */
   }
 }
 
-@keyframes rotate {
+@media (min-width: 1024px) {
+  .heading {
+    overflow: hidden;
+    border-right: 0.15em solid var(--dark-blue);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.1rem;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+}
+
+@keyframes typing {
   from {
-    transform: rotate(360deg);
+    width: 0;
   }
   to {
-    transform: rotate(0deg);
+    width: 42%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--dark-blue);
   }
 }
