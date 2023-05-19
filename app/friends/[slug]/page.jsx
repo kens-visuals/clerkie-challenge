@@ -31,7 +31,13 @@ export default async function Friend({ params }) {
           height={110}
           alt={name}
           src={image}
-          className={styles.profileImg}
+          className={`${styles.profileImg} ${
+            status === 'Close Friends'
+              ? styles.profileImgClose
+              : status === 'Super Close Friends'
+              ? styles.profileImgSuperClose
+              : styles.profileImgDefault
+          }`}
         />
         <div className={styles.infoWrapper}>
           <h1>{name}</h1>

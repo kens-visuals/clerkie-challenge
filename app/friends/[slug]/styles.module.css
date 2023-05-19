@@ -10,8 +10,16 @@
 }
 
 .profileImg {
-  border: 2px solid var(--primary);
   border-radius: 50%;
+}
+.profileImgDefault {
+  border: 2px solid var(--secondary);
+}
+.profileImgClose {
+  border: 2px solid var(--dark-blue);
+}
+.profileImgSuperClose {
+  border: 2px solid var(--dark-green);
 }
 
 .status {
