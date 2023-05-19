@@ -51,7 +51,7 @@ export default function FriendsList({ selectedOptions }) {
           if (endIndex <= friends.length) {
             fetchData();
             setIsLoading(true);
-            const timer = setTimeout(() => setIsLoading(false), 2000);
+            setTimeout(() => setIsLoading(false), 2000);
           }
         }
       },
@@ -66,7 +66,6 @@ export default function FriendsList({ selectedOptions }) {
       if (target) {
         observer.unobserve(target);
       }
-      clearTimeout(timer);
     };
   }, [observerTarget]);
 
