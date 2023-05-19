@@ -13,11 +13,10 @@
   line-height: 3.1rem;
 }
 
-/* Tablet */
 @media (min-width: 768px) {
-  .main {
-    /* background-color: var(--primary); */
-  }
+  /* .main {
+    overflow: scroll;
+  } */
 }
 
 @media (min-width: 1024px) {

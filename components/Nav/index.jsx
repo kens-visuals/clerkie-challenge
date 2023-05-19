@@ -25,24 +25,28 @@ export default function Nav() {
 
   return (
     <div className={styles.nav}>
-      <div className={styles.logoContainer}>
-        <Image src={logo} width={35} height={35} alt="Clerkie" />
-        <span className={styles.logoSpan}>Clerkie Challenge</span>
-      </div>
+      <div className={styles.navWrapper}>
+        <div className={styles.logoContainer}>
+          <Image src={logo} width={20} height={20} alt="Clerkie" />
+          <span className={styles.logoSpan}>Clerkie Challenge</span>
+        </div>
 
-      <ul className={styles.navList}>
-        {menuItems.map((item) => (
-          <li
-            key={item.name}
-            className={pathname === item.route ? styles.activeLink : undefined}
-          >
-            <Link href={item.route} className={styles.navListItem}>
-              <Image src={item.icon} width={24} height={24} alt={item} />
-              <span className={styles.listSpan}>{item.name}</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+        <ul className={styles.navList}>
+          {menuItems.map((item) => (
+            <li
+              key={item.name}
+              className={
+                pathname === item.route ? styles.activeLink : undefined
+              }
+            >
+              <Link href={item.route} className={styles.navListItem}>
+                <Image src={item.icon} width={24} height={24} alt={item} />
+                <span className={styles.listSpan}>{item.name}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

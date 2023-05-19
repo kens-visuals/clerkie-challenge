@@ -3,6 +3,7 @@
   width: 100%;
   max-width: 32rem;
   position: absolute;
+  z-index: 99;
   border-radius: 0.6rem;
   background-color: #fff;
   box-shadow: var(--filter-shadow);
@@ -122,4 +123,10 @@
   color: #fff;
   font-size: 1.2rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .filterContainer {
+    top: 14rem;
+  }
 }

@@ -20,18 +20,55 @@
 .navList {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.2rem;
 }
 
 .navListItem {
   color: #fff;
   display: flex;
   align-items: center;
-  gap: 0.7rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  padding: 0.6rem 1.6rem;
 }
 
 .activeLink {
-  padding: 1rem 1.6rem;
   border-radius: 0.6rem;
   background-color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+  .nav {
+    width: 25rem;
+    padding: 4rem 1.5rem;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .navWrapper {
+    position: fixed;
+    width: 22rem;
+  }
+
+  .logoSpan {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    display: inline-block;
+  }
+
+  .logoContainer {
+    padding-inline: 1.8rem;
+  }
+
+  .navList {
+    width: 100%;
+    margin-top: 4.3rem;
+    align-items: stretch;
+    flex-direction: column;
+  }
 }

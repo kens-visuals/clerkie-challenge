@@ -82,3 +82,9 @@
   color: var(--secondary);
   border: 1px solid var(--secondary);
 }
+
+@media (min-width: 768px) {
+  .profileContainer {
+    padding-top: 10rem;
+  }
+}

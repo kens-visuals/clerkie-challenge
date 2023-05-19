@@ -56,3 +56,9 @@
   height: 2.8rem;
   background-color: var(--border);
 }
+
+@media (min-width: 768px) {
+  .container {
+    padding: 12rem 2.5rem;
+  }
+}
