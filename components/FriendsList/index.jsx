@@ -1,16 +1,22 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 'use client';
-import { use, useEffect, useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
+import Link from 'next/link';
+import { use, useEffect, useState, useRef } from 'react';
 
 import FreindsCard from '../FriendsCard';
 
 import styles from './styles.module.css';
 
-const getFriends = async () => {
+export const getFriends = async (slug) => {
   const data = await fetch('/data.json');
   const friends = await data.json();
 
-  return friends;
+  if (slug) {
+    const friend = friends.filter((friend) => friend.slug === slug);
+    return friend;
+  } else {
+    return friends;
+  }
 };
 
 const getFreindsPriomise = getFriends();
@@ -18,60 +24,80 @@ const getFreindsPriomise = getFriends();
 export default function FriendsList({ selectedOptions }) {
   const friends = use(getFreindsPriomise);
 
-  const [visibleItems, setVisibleItems] = useState(10);
-  const [data, setData] = useState(friends.slice(0, 10));
   const [isLoading, setIsLoading] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [hasMoreItems, setHasMoreItems] = useState(true);
-
-  const handleScroll = async () => {
-    if (
-      window.innerHeight + document.documentElement.scrollTop ===
-        document.documentElement.offsetHeight &&
-      hasMoreItems
-    ) {
-      setIsLoading(true);
-      await new Promise((resolve) => setTimeout(resolve, 3000));
-
-      const startIndex = (currentPage - 1) * 10;
-      const endIndex = startIndex + 10;
-      const newData = friends.slice(startIndex, endIndex);
-
-      setData((prevData) => [...prevData, ...newData]);
-      setIsLoading(false);
-      setCurrentPage((prevPage) => prevPage + 1);
-    }
-  };
+  const [endIndex, setEndIndex] = useState(10);
+  const observerTarget = useRef(null);
 
   useEffect(() => {
-    if (data.length >= friends.length) {
-      setHasMoreItems(false);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+    setIsLoading(true);
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    const timer = setTimeout(() => setIsLoading(false), 3000);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      clearTimeout(timer);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  useEffect(() => {
+    const fetchData = () => {
+      setEndIndex((prevEndIndex) => prevEndIndex + 10);
+    };
+
+    const target = observerTarget.current;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && endIndex <= friends.length) {
+          if (endIndex <= friends.length) {
+            fetchData();
+            setIsLoading(true);
+            const timer = setTimeout(() => setIsLoading(false), 2000);
+          }
+        }
+      },
+      { threshold: 1 }
+    );
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current);
+    }
+
+    return () => {
+      if (target) {
+        observer.unobserve(target);
+      }
+      clearTimeout(timer);
+    };
+  }, [observerTarget]);
+
+  // This useEffect prevents from endIndex going over the limit
+  // and repetitive loading effect when reached the end of page
+  useEffect(() => {
+    if (endIndex > friends.length) {
+      setEndIndex(friends.length);
+      setIsLoading(false);
+    }
+  }, [endIndex]);
+
   return (
-    <ul className={styles.list}>
-      {data
-        .filter(
-          (friend) =>
-            selectedOptions.length === 0 ||
-            selectedOptions.includes(friend.status)
-        )
-        .map((friend) => (
-          <li key={uuidv4()}>
-            <FreindsCard {...friend} isLoading={isLoading} />
-          </li>
-        ))}
-    </ul>
+    <>
+      <ul className={styles.list}>
+        {friends
+          .slice(0, endIndex)
+          .filter(
+            (friend) =>
+              selectedOptions.length === 0 ||
+              selectedOptions.includes(friend.status)
+          )
+          .map((friend) => (
+            <li key={friend.id}>
+              <Link href={`/friends/${friend.slug}`}>
+                <FreindsCard {...friend} isLoading={isLoading} />
+              </Link>
+            </li>
+          ))}
+      </ul>
+      <div ref={observerTarget} />
+    </>
   );
 }
