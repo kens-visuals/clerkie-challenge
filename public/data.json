@@ -137,7 +137,7 @@
     "name": "Ethan Thompson",
     "phoneNumber": "(345) 678-9012",
     "email": "ethan.thompson@gmail.com",
-    "status": "Best Friends",
+    "status": "Close Friends",
     "about": "Hey, I'm Ethan Thompson. I'm a music lover and enjoy playing the guitar in my spare time.",
     "dateAdded": "2014-06-03",
     "image": "https://robohash.org/567890"
@@ -292,7 +292,7 @@
     "name": "Lucas Thomas",
     "phoneNumber": "(789) 012-3456",
     "email": "lucas.thomas@hotmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hi, I'm Lucas Thomas. I enjoy coding and building web applications in my free time.",
     "dateAdded": "2016-05-28",
     "image": "https://robohash.org/wxyz12"
@@ -369,7 +369,7 @@
     "name": "Sophia Brown",
     "phoneNumber": "(456) 789-0123",
     "email": "sophia.brown@yahoo.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hey there, I'm Sophia Brown. I enjoy painting and expressing my creativity through art.",
     "dateAdded": "2017-08-27",
     "image": "https://robohash.org/345678"
@@ -391,7 +391,7 @@
     "name": "Ava Miller",
     "phoneNumber": "(678) 901-2345",
     "email": "ava.miller@gmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hey, I'm Ava Miller. I'm a fashion enthusiast and love experimenting with different styles.",
     "dateAdded": "2018-02-01",
     "image": "https://robohash.org/efghij"
@@ -446,7 +446,7 @@
     "name": "Liam Johnson",
     "phoneNumber": "(123) 456-7890",
     "email": "liam.johnson@gmail.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hello, I'm Liam Johnson. I'm a foodie and love experimenting with new recipes in the kitchen.",
     "dateAdded": "2019-03-11",
     "image": "https://robohash.org/90abcd"
@@ -491,7 +491,7 @@
     "name": "Jackson Wang",
     "phoneNumber": "(567) 890-1234",
     "email": "jackson.wang@hotmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hello, I'm Jackson Wang. I'm a music producer and enjoy creating beats in my studio.",
     "dateAdded": "2019-12-05",
     "image": "https://robohash.org/vwxyz2"
@@ -524,7 +524,7 @@
     "name": "Charlotte Rodriguez",
     "phoneNumber": "(890) 123-4567",
     "email": "charlotte.rodriguez@hotmail.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hello, I'm Charlotte Rodriguez. I'm a fashion enthusiast and love experimenting with different styles.",
     "dateAdded": "2020-06-19",
     "image": "https://robohash.org/efghij"
@@ -568,7 +568,7 @@
     "name": "Olivia Thompson",
     "phoneNumber": "(234) 567-8901",
     "email": "olivia.thompson@gmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hi, I'm Olivia Thompson. I'm a foodie and enjoy trying out new restaurants and cuisines.",
     "dateAdded": "2021-02-22",
     "image": "https://robohash.org/345678"
@@ -667,7 +667,7 @@
     "name": "Lucas Rodriguez",
     "phoneNumber": "(123) 456-7890",
     "email": "lucas.rodriguez@gmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hi, I'm Lucas Rodriguez. I'm a food enthusiast and enjoy cooking delicious meals.",
     "dateAdded": "2023-03-11",
     "image": "https://robohash.org/klmnopq"
@@ -700,7 +700,7 @@
     "name": "Olivia Gonzalez",
     "phoneNumber": "(456) 789-0123",
     "email": "olivia.gonzalez@hotmail.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hi, I'm Olivia Gonzalez. I'm a fitness enthusiast and enjoy practicing yoga and Pilates.",
     "dateAdded": "2023-12-01",
     "image": "https://robohash.org/890abcdef"
@@ -722,7 +722,7 @@
     "name": "Emily Gonzalez",
     "phoneNumber": "(678) 901-2345",
     "email": "emily.gonzalez@gmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hello, I'm Emily Gonzalez. I'm a fashion blogger and love sharing my style tips and outfits.",
     "dateAdded": "2023-05-26",
     "image": "https://robohash.org/pqrstuvwx"
@@ -799,7 +799,7 @@
     "name": "Lucas Thompson",
     "phoneNumber": "(345) 678-9012",
     "email": "lucas.thompson@hotmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hi, I'm Lucas Thompson. I'm a technology enthusiast and enjoy building and programming robots.",
     "dateAdded": "2023-02-26",
     "image": "https://robohash.org/pqrstuvwxyz123"
@@ -821,7 +821,7 @@
     "name": "Dylan Gonzalez",
     "phoneNumber": "(567) 890-1234",
     "email": "dylan.gonzalez@gmail.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hello, I'm Dylan Gonzalez. I'm a software engineer and enjoy developing innovative applications.",
     "dateAdded": "2023-09-05",
     "image": "https://robohash.org/abcdefghijklm"
@@ -887,7 +887,7 @@
     "name": "Ethan Thompson",
     "phoneNumber": "(123) 456-7890",
     "email": "ethan.thompson@gmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hello, I'm Ethan Thompson. I'm a nature enthusiast and enjoy camping and hiking in the great outdoors.",
     "dateAdded": "2023-04-18",
     "image": "https://robohash.org/wxyz123456789abcdef"
@@ -920,7 +920,7 @@
     "name": "Charlotte Gonzalez",
     "phoneNumber": "(456) 789-0123",
     "email": "charlotte.gonzalez@gmail.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hello, I'm Charlotte Gonzalez. I'm a travel enthusiast and love exploring different cultures and destinations.",
     "dateAdded": "2023-03-01",
     "image": "https://robohash.org/klmnopqrstuvwxyz123"
@@ -964,7 +964,7 @@
     "name": "Ava Rodriguez",
     "phoneNumber": "(890) 123-4567",
     "email": "ava.rodriguez@hotmail.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hi, I'm Ava Rodriguez. I'm an art lover and enjoy painting and visiting art galleries.",
     "dateAdded": "2023-04-26",
     "image": "https://robohash.org/pqrstuvwxyz123456"
@@ -1019,7 +1019,7 @@
     "name": "Mason King",
     "phoneNumber": "(345) 678-9012",
     "email": "mason.king@yahoo.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hey there, I'm Mason King. I'm a travel enthusiast and enjoy exploring new destinations.",
     "dateAdded": "2023-03-04",
     "image": "https://robohash.org/abcdefghijklmno123456"
@@ -1052,7 +1052,7 @@
     "name": "Emma Rodriguez",
     "phoneNumber": "(678) 901-2345",
     "email": "emma.rodriguez@yahoo.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hi, I'm Emma Rodriguez. I'm a nature lover and enjoy hiking and exploring the outdoors.",
     "dateAdded": "2023-05-08",
     "image": "https://robohash.org/mnopqrstuvwxyz1234567"
@@ -1085,7 +1085,7 @@
     "name": "Ethan King",
     "phoneNumber": "(901) 234-5678",
     "email": "ethan.king@yahoo.com",
-    "status": "",
+    "status": "Close Friends",
     "about": "Hi, I'm Ethan King. I'm a technology enthusiast and enjoy programming and building websites.",
     "dateAdded": "2023-08-01",
     "image": "https://robohash.org/abcdefghijklmno123456789"
@@ -1096,7 +1096,7 @@
     "name": "Harper Rodriguez",
     "phoneNumber": "(012) 345-6789",
     "email": "harper.rodriguez@gmail.com",
-    "status": "",
+    "status": "Super Close Friends",
     "about": "Hello, I'm Harper Rodriguez. I'm a movie buff and enjoy watching films from various genres.",
     "dateAdded": "2023-12-30",
     "image": "https://robohash.org/pqrstuvwxyz1234567890abcd"
