@@ -9,10 +9,12 @@ import FriendsList from '@/components/FriendsList';
 import styles from './styles.module.css';
 
 import filterIcon from '../../public/filter-icon.svg';
+import SearchComponent from '@/components/Search';
 
 export default function Frineds() {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState([]);
+  const [query, setQuery] = useState('');
 
   const handleToggleFilter = () => setIsFilterOpen((prevState) => !prevState);
 
@@ -45,6 +47,8 @@ export default function Frineds() {
             handleFilterReset={handleFilterReset}
           />
 
+          <SearchComponent query={query} setQuery={setQuery} />
+
           {isFilterOpen && (
             <Filters
               selectedOptions={selectedOptions}
@@ -55,7 +59,7 @@ export default function Frineds() {
           )}
         </div>
 
-        <FriendsList selectedOptions={selectedOptions} />
+        <FriendsList query={query} selectedOptions={selectedOptions} />
       </div>
     </main>
   );

@@ -1,0 +1,14 @@
+.searchInput {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--border);
+}
+
+.searchInput:focus {
+  outline: 1px solid var(--dark-blue);
+}
+
+.searchInput::placeholder {
+  opacity: 0.4;
+}

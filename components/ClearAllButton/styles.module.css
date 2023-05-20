@@ -1,4 +1,5 @@
 .clearAllButton {
+  flex-shrink: 0;
   border: none;
   font-weight: 600;
   line-height: 1.7rem;

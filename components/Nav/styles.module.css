@@ -1,10 +1,13 @@
 .nav {
   width: 100%;
+  padding: 2.5rem;
+  background-color: var(--primary);
+}
+
+.navWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.5rem;
-  background-color: var(--primary);
 }
 
 .logoContainer {
@@ -55,6 +58,7 @@
   }
 
   .navWrapper {
+    display: inline-block;
     position: fixed;
     width: 22rem;
   }

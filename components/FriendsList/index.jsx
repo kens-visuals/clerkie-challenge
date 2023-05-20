@@ -21,12 +21,14 @@ export const getFriends = async (slug) => {
 
 const getFreindsPriomise = getFriends();
 
-export default function FriendsList({ selectedOptions }) {
+export default function FriendsList({ query, selectedOptions }) {
   const friends = use(getFreindsPriomise);
 
   const [isLoading, setIsLoading] = useState(true);
   const [endIndex, setEndIndex] = useState(10);
   const observerTarget = useRef(null);
+
+  console.log(query);
 
   // This useEffect sets the initial loading effect when the page just loaded
   // or when a user goes from page-to-page
@@ -89,6 +91,12 @@ export default function FriendsList({ selectedOptions }) {
             (friend) =>
               selectedOptions.length === 0 ||
               selectedOptions.includes(friend.status)
+          )
+          .filter(
+            (friend) =>
+              friend.name.toLowerCase().includes(query.toLowerCase()) ||
+              friend.email.toLowerCase().includes(query.toLowerCase()) ||
+              friend.phoneNumber.toLowerCase().includes(query.toLowerCase())
           )
           .map((friend) => (
             <li key={friend.id}>
