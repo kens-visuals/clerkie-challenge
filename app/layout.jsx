@@ -1,11 +1,10 @@
+import './globals.css';
 import { Inter } from 'next/font/google';
 
 import Nav from '@/components/Nav';
 import Banner from '@/components/Banner';
 
 const inter = Inter({ subsets: ['latin'] });
-
-import styles from './globals.css';
 
 export const metadata = {
   title: 'Clerkie Challenge',
