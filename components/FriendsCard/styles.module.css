@@ -5,6 +5,12 @@
   transition: all 0.2s ease-in-out;
 }
 
+.loadingCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .cardContainer:hover {
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
@@ -15,6 +21,19 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 1rem;
+}
+
+.loadingSpanWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.loadingSpanWrapperLeft {
+  align-items: flex-start;
+}
+
+.loadingSpanWrapperRight {
+  align-items: flex-end;
 }
 
 .name {
@@ -89,5 +108,16 @@
   }
   50% {
     opacity: 0.5;
+  }
+}
+
+@media (min-width: 768px) {
+  .spanWrapper {
+    flex-direction: row;
+  }
+
+  .personalInforWrapper {
+    display: flex;
+    gap: 1rem;
   }
 }

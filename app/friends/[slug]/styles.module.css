@@ -84,7 +84,14 @@
 }
 
 @media (min-width: 768px) {
+  .flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .profileContainer {
-    padding-top: 10rem;
+    padding: 12rem 4rem;
+    max-width: 90rem;
   }
 }

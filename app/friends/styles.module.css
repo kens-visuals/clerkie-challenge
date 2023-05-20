@@ -61,4 +61,10 @@
   .container {
     padding: 12rem 2.5rem;
   }
+
+  .friendsListContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

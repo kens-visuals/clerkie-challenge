@@ -24,10 +24,12 @@ const getFreindsPriomise = getFriends();
 export default function FriendsList({ selectedOptions }) {
   const friends = use(getFreindsPriomise);
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [endIndex, setEndIndex] = useState(10);
   const observerTarget = useRef(null);
 
+  // This useEffect sets the initial loading effect when the page just loaded
+  // or when a user goes from page-to-page
   useEffect(() => {
     setIsLoading(true);
 

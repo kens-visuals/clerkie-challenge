@@ -10,7 +10,7 @@ import styles from './styles.module.css';
 export async function generateStaticParams() {
   const friends = await getFriends().json();
 
-  return friends.map((friend) => ({
+  return friends.map(() => ({
     slug: slug,
   }));
 }
@@ -24,63 +24,65 @@ export default async function Friend({ params }) {
   const formarDate = new Intl.DateTimeFormat('en-US').format(rawDate);
 
   return (
-    <div className={styles.profileContainer}>
-      <div className={styles.profileWrapper}>
-        <Image
-          width={110}
-          height={110}
-          alt={name}
-          src={image}
-          className={`${styles.profileImg} ${
-            status === 'Close Friends'
-              ? styles.profileImgClose
-              : status === 'Super Close Friends'
-              ? styles.profileImgSuperClose
-              : styles.profileImgDefault
-          }`}
-        />
-        <div className={styles.infoWrapper}>
-          <h1>{name}</h1>
-          <span className={styles.status}>
-            {status && (
-              <span
-                className={`${styles.status} ${
-                  status === 'Close Friends'
-                    ? styles.closeFriends
-                    : styles.superCloseFriends
-                }`}
-              >
-                {status}
-              </span>
-            )}
-          </span>
-          <span>
-            You&apos;re friends since <i>{formarDate}</i>
-          </span>
+    <div className={styles.flexContainer}>
+      <div className={styles.profileContainer}>
+        <div className={styles.profileWrapper}>
+          <Image
+            width={110}
+            height={110}
+            alt={name}
+            src={image}
+            className={`${styles.profileImg} ${
+              status === 'Close Friends'
+                ? styles.profileImgClose
+                : status === 'Super Close Friends'
+                ? styles.profileImgSuperClose
+                : styles.profileImgDefault
+            }`}
+          />
+          <div className={styles.infoWrapper}>
+            <h1>{name}</h1>
+            <span className={styles.status}>
+              {status && (
+                <span
+                  className={`${styles.status} ${
+                    status === 'Close Friends'
+                      ? styles.closeFriends
+                      : styles.superCloseFriends
+                  }`}
+                >
+                  {status}
+                </span>
+              )}
+            </span>
+            <span>
+              You&apos;re friends since <i>{formarDate}</i>
+            </span>
+          </div>
         </div>
-      </div>
-      <div className={styles.contactInfoWrapper}>
-        <fieldset className={styles.fieldset}>
-          <legend className={styles.legend}>Personal Information</legend>
-          <span>
-            <strong>Phone:</strong> {phoneNumber}
-          </span>
-          <span>
-            <strong>Email:</strong> {email}
-          </span>
-        </fieldset>
-      </div>
+        <div className={styles.contactInfoWrapper}>
+          <fieldset className={styles.fieldset}>
+            <legend className={styles.legend}>Personal Information</legend>
+            <span>
+              <strong>Phone:</strong> {phoneNumber}
+            </span>
+            <span>
+              <strong>Email:</strong> {email}
+            </span>
+          </fieldset>
+        </div>
 
-      <div>
-        <fieldset className={styles.fieldset}>
-          <legend className={styles.legend}>About {name}</legend>
+        <div>
+          <fieldset className={styles.fieldset}>
+            <legend className={styles.legend}>About {name}</legend>
 
-          <p>{about}</p>
-        </fieldset>
+            <p>{about}</p>
+          </fieldset>
+        </div>
+        <Link href="/friends" className={styles.goBackButton}>
+          Go Back
+        </Link>
       </div>
-      <Link href="/friends" className={styles.goBackButton}>
-        Go Back
-      </Link>
     </div>
   );
 }
