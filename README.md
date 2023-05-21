@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://clerkie-challenge-seven.vercel.app/friends](https://clerkie-challenge-seven.vercel.app/friends)
+- Live Site URL: [https://clerkie-challenge-seven.vercel.app/](https://clerkie-challenge-seven.vercel.app/)
 
 ## My process
 
