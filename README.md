@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Clerkie Front End Web Developer Challenge](https://www.clerkie.io/) made by [Karapet Nersisyan](https://www.ken.engineer/).
 
-## Getting Started
+## Table of contents
 
-First, run the development server:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author's Links](#authors-links)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### The challenge
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Users should be able to:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Implement the Figma design exactly. All icons, layouts, and cases are provided in the Figma file. There should be no visible difference between a screenshot of the Figma design and the live site.
+- Build the site with only what is provided in the Next.js starter project and don’t use any external component or helper libraries. We want to be able to see all your skills at work
+- Interpret everything required by the design which includes all interactions, routing, data handling, and error checking.
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+![screenshot](./screenshot.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Live Site URL: [TO_BE_UPDATED](TO_BE_UPDATED)
 
-## Deploy on Vercel
+## My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.JS
+- Mobile-first workflow
+
+## Author's Links
+
+- LinkedIn - [Karapet (Ken) Nersisyan](https://www.linkedin.com/in/karo-nersisyan-135118129/)
+- Medium - [@kens_visuals](https://medium.com/@kens_visuals)
+- CodePen - [@kens-visuals](https://codepen.io/kens-visuals)
