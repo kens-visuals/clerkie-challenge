@@ -5,11 +5,11 @@ import Image from 'next/image';
 import Filters from '@/components/Filters';
 import ClearAllButton from '@/components/ClearAllButton';
 import FriendsList from '@/components/FriendsList';
+import SearchComponent from '@/components/Search';
 
 import styles from './styles.module.css';
 
 import filterIcon from '../../public/filter-icon.svg';
-import SearchComponent from '@/components/Search';
 
 export default function Frineds() {
   const [isFilterOpen, setIsFilterOpen] = useState(false);

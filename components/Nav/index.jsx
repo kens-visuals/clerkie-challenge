@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 import styles from './styles.module.css';
+
 import logo from '../../public/logo.svg';
 import home from '../../public/home-icon.svg';
 import friends from '../../public/friends-icon.svg';

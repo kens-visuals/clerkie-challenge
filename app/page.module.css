@@ -13,12 +13,6 @@
   line-height: 3.1rem;
 }
 
-@media (min-width: 768px) {
-  /* .main {
-    overflow: scroll;
-  } */
-}
-
 @media (min-width: 1024px) {
   .heading {
     overflow: hidden;
