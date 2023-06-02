@@ -63,6 +63,9 @@
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.9rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.4rem;
 }
 
 .checkboxWrapper {

@@ -14,11 +14,17 @@ import filterIcon from '../../public/filter-icon.svg';
 export default function Frineds() {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState([]);
+  const [startAndEndDate, setStartAndEndDate] = useState([]);
   const [query, setQuery] = useState('');
 
   const handleToggleFilter = () => setIsFilterOpen((prevState) => !prevState);
 
-  const handleFilterReset = () => setSelectedOptions([]);
+  const handleFilterReset = () => {
+    if (startAndEndDate.length === 2 || selectedOptions.length) {
+      setSelectedOptions([]);
+      setStartAndEndDate([]);
+    }
+  };
 
   return (
     <main className={styles.friendsListContainer}>
@@ -44,6 +50,7 @@ export default function Frineds() {
 
           <ClearAllButton
             selectedOptions={selectedOptions}
+            startAndEndDate={startAndEndDate}
             handleFilterReset={handleFilterReset}
           />
 
@@ -55,11 +62,17 @@ export default function Frineds() {
               setIsFilterOpen={setIsFilterOpen}
               handleFilterReset={handleFilterReset}
               setSelectedOptions={setSelectedOptions}
+              startAndEndDate={startAndEndDate}
+              setStartAndEndDate={setStartAndEndDate}
             />
           )}
         </div>
 
-        <FriendsList query={query} selectedOptions={selectedOptions} />
+        <FriendsList
+          query={query}
+          selectedOptions={selectedOptions}
+          startAndEndDate={startAndEndDate}
+        />
       </div>
     </main>
   );

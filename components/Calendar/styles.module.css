@@ -1,0 +1,76 @@
+.daysContainer {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.weekdays {
+  color: var(--tertiary);
+  margin: 2rem 0;
+  padding-inline: 0.5rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day {
+  color: var(--secondary);
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+}
+
+.day:hover {
+  cursor: pointer;
+  border-radius: 0.7rem;
+  background-color: var(--light-blue);
+}
+
+.today {
+  color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.todaySpan {
+  color: var(--dark-blue);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.futureDates {
+  color: var(--border);
+}
+
+.futureDates:hover {
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+.selectedDate {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: inline-block;
+  border-radius: 0.5rem;
+  background-color: var(--dark-blue);
+}
+
+.selectedRange {
+  border-radius: 0.7rem;
+  background-color: var(--light-blue);
+}

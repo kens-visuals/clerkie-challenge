@@ -2,6 +2,7 @@
 'use client';
 import Link from 'next/link';
 import { use, useEffect, useState, useRef } from 'react';
+import { parseISO, isWithinInterval, format } from 'date-fns';
 
 import FreindsCard from '../FriendsCard';
 
@@ -21,14 +22,18 @@ export const getFriends = async (slug) => {
 
 const getFreindsPriomise = getFriends();
 
-export default function FriendsList({ query, selectedOptions }) {
+export default function FriendsList({
+  query,
+  selectedOptions,
+  startAndEndDate,
+}) {
   const friends = use(getFreindsPriomise);
 
   const [isLoading, setIsLoading] = useState(true);
   const [endIndex, setEndIndex] = useState(10);
   const observerTarget = useRef(null);
 
-  console.log(query);
+  const [startDate, endDate] = startAndEndDate;
 
   // This useEffect sets the initial loading effect when the page just loaded
   // or when a user goes from page-to-page
@@ -98,6 +103,18 @@ export default function FriendsList({ query, selectedOptions }) {
               friend.email.toLowerCase().includes(query.toLowerCase()) ||
               friend.phoneNumber.toLowerCase().includes(query.toLowerCase())
           )
+          .filter((friend) => {
+            const friendDate = parseISO(friend.dateAdded);
+
+            if (startDate && endDate) {
+              return isWithinInterval(friendDate, {
+                start: startDate,
+                end: endDate,
+              });
+            }
+
+            return true;
+          })
           .map((friend) => (
             <li key={friend.id}>
               <Link href={`/friends/${friend.slug}`}>
