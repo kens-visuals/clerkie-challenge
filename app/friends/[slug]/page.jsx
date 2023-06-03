@@ -8,7 +8,7 @@ import { getFriends } from '../../../components/FriendsList/index';
 import styles from './styles.module.css';
 
 export async function generateStaticParams() {
-  const friends = await getFriends().json();
+  const friends = await getFriends();
 
   return friends.map(() => ({
     slug: slug,
@@ -19,6 +19,8 @@ export default async function Friend({ params }) {
   const [friend] = await getFriends(params.slug);
 
   const { image, name, status, phoneNumber, email, about, dateAdded } = friend;
+
+  console.log(name);
 
   const rawDate = new Date(dateAdded);
   const formarDate = new Intl.DateTimeFormat('en-US').format(rawDate);
