@@ -26,7 +26,6 @@ export default function DateModal({
   setStartDate,
   endDate,
   setEndDate,
-  setStartAndEndDate,
 }) {
   const [currentDate, setCurrentDate] = useState(new Date());
 
@@ -61,12 +60,6 @@ export default function DateModal({
     setCurrentDate((prevDate) => addMonths(prevDate, 1));
   };
 
-  // const handleApplyCalendarDates = () => {
-  //   if (!startDate || !endDate) return;
-
-  //   setStartAndEndDate([startDate, endDate]);
-  // };
-
   return (
     <div className={styles.dateModalContainer}>
       <div className={styles.dateModalSpanContainer}>
@@ -74,14 +67,6 @@ export default function DateModal({
           From {startDate && format(startDate, 'MMM d')} - To{' '}
           {endDate && format(endDate, 'MMM d')}
         </span>
-
-        {/* <button
-          type="button"
-          className={styles.dateModalButton}
-          onClick={handleApplyCalendarDates}
-        >
-          Apply
-        </button> */}
       </div>
       <div className={styles.dateModalCalendarsContainer}>
         <div className={styles.dateModalMonthsContainer}>
