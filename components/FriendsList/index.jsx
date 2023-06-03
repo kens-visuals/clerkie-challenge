@@ -9,7 +9,9 @@ import FreindsCard from '../FriendsCard';
 import styles from './styles.module.css';
 
 export const getFriends = async (slug) => {
-  const data = await fetch('/data.json');
+  const data = await fetch(
+    'https://raw.githubusercontent.com/kens-visuals/clerkie-challenge/main/public/data.json'
+  );
   const friends = await data.json();
 
   if (slug) {
